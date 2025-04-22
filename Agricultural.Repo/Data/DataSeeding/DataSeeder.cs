@@ -17,7 +17,7 @@ namespace Agricultural.Repo.Data.DataSeeding
                 #region PlantsInfo data seeding
                 if (!DbContext.PlantsInfo.Any())
                 {
-                    var plantsData = File.ReadAllText("../Agricultural.Repo/Data/DataSeeding/plants_data.json");
+                    var plantsData = File.ReadAllText("Data/DataSeeding/plants_data.json");
                     var plants = JsonSerializer.Deserialize<List<PlantsInfo>>(plantsData);
 
                     if (plants?.Count > 0)
@@ -32,8 +32,7 @@ namespace Agricultural.Repo.Data.DataSeeding
                 #region Plant_Images data seeding
                 if (!DbContext.PlantImages.Any())
                 {
-                   
-                    var plantImagesData = File.ReadAllText("../Agricultural.Repo/Data/DataSeeding/PlantImages.json");
+                    var plantImagesData = File.ReadAllText("Data/DataSeeding/PlantImages.json");
                     var plantImages = JsonSerializer.Deserialize<List<PlantImages>>(plantImagesData);
 
                     if (plantImages?.Count > 0)
@@ -47,7 +46,7 @@ namespace Agricultural.Repo.Data.DataSeeding
             }
             catch (Exception ex)
             {
-                throw new Exception($"خطأ أثناء تهيئة البيانات: {ex.Message}");
+                throw new Exception($"خطأ أثناء تهيئة البيانات: {ex.Message}", ex);
             }
         }
     }
