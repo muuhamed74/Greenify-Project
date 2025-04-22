@@ -10,20 +10,7 @@ using System.Web;
 
 
 
-//using DataAcess;
-//using Microsoft.EntityFrameworkCore;
-//using Scalar.AspNetCore;
-//using Models.DTOs.Mapper;
-//using Microsoft.AspNetCore.Authentication.JwtBearer;
-//using Microsoft.IdentityModel.Tokens;
-//using Microsoft.AspNetCore.OpenApi;
-//using Microsoft.OpenApi.Models;
-//using DataAcess.Repos;
-//using DataAcess.Repos.IRepos;
-//using Models.Domain;
-//using IdentityManagerAPI.Middlewares;
-//using IdentityManager.Services.ControllerService.IControllerService;
-//using IdentityManager.Services.ControllerService;
+
 
 namespace Agricultural
 {
@@ -44,10 +31,10 @@ namespace Agricultural
 
             // Add database context
             builder.Services.AddDbContext<PlanetContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-
+            
             builder.Services.AddScoped<PlantsService>();
 
             builder.Services.AddAutoMapper(typeof(Program));
@@ -59,6 +46,12 @@ namespace Agricultural
                     Title = "Agricultural API",
                     Version = "v1"
                 });
+            });
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             });
 
             builder.Services.AddHttpContextAccessor();
@@ -134,20 +127,13 @@ namespace Agricultural
                 });
             }
 
-            // تكوين خدمة الملفات الثابتة
-         //   app.UseStaticFiles(new StaticFileOptions
-         //   {
-         //       FileProvider = new PhysicalFileProvider(
-         //Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images")),
-         //       RequestPath = "/images",
-         //       OnPrepareResponse = ctx =>
-         //       {
-         //           ctx.Context.Response.Headers.Append("Cache-Control", "public,max-age=604800");
-         //       }
-         //   });
+            var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+            app.Urls.Add($"http://*:{port}");
 
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowAll");
 
             app.UseAuthorization();
 

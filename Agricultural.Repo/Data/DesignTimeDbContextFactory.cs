@@ -32,7 +32,7 @@ namespace Agricultural.Repo.Data
                 throw new InvalidOperationException("❌ لم يتم العثور على `ConnectionString` في `appsettings.json`");
             }
 
-            builder.UseSqlServer(connectionString);
+            builder.UseNpgsql(connectionString);
 
             Console.WriteLine("✅ تم تحميل `PlanetContext` بنجاح!");
             return new PlanetContext(builder.Options);
