@@ -7,11 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using System.Web;
 
-
-
-
-
-
 namespace Agricultural
 {
     public class Program
@@ -22,7 +17,6 @@ namespace Agricultural
 
             // Add services to the container.
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-
 
             // Add services to the container.
             builder.Services.AddControllers();
@@ -48,24 +42,25 @@ namespace Agricultural
                 });
             });
 
+            // Configure CORS
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll",
-                    policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+                    policy => policy
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
             });
 
             builder.Services.AddHttpContextAccessor();
-
 
             // Configure Identity
             //builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
             //    .AddEntityFrameworkStores<ApplicationDbContext>()
             //    .AddDefaultTokenProviders();
 
-
             // Add AutoMapper
             //builder.Services.AddAutoMapper(typeof(MappingConfig));
-
 
             //builder.Services.AddScoped<UserManager<ApplicationUser>>();
             //builder.Services.AddScoped<SignInManager<ApplicationUser>>();
@@ -74,7 +69,6 @@ namespace Agricultural
             // Add Services
             //builder.Services.AddScoped<IAuthService, AuthService>();
             //builder.Services.AddScoped<IUserService, UserService>();
-
 
             // Add Repositories
             //builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -88,13 +82,10 @@ namespace Agricultural
 
             var app = builder.Build();
 
-
-
             #region Update Database and Seed Data
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-
                 var loggerFactory = services.GetRequiredService<ILoggerFactory>();
 
                 try
@@ -113,10 +104,6 @@ namespace Agricultural
 
             // Configure the HTTP request pipeline.
 
-
-            // باقي الكود بتاعك (زي الداتابيز، الـ Services، إلخ)
-            // ...
-
             // الجزء التاني: الـ Middleware
             if (app.Environment.IsDevelopment())
             {
@@ -127,19 +114,13 @@ namespace Agricultural
                 });
             }
 
+            // Configure port
             var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
             app.Urls.Add($"http://*:{port}");
 
-
-            app.UseHttpsRedirection();
-
+            // Configure middleware
             app.UseCors("AllowAll");
-
-            app.UseAuthorization();
-
             app.UseStaticFiles();
-
-
             app.MapControllers();
 
             app.Run();
