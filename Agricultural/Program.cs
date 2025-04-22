@@ -25,6 +25,15 @@ namespace Agricultural
 
             // Add database context
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            Console.WriteLine($"Connection String from config: {connectionString}");
+
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                Console.WriteLine("Connection string is null or empty");
+                connectionString = "Host=postgres.railway.internal;Port=5432;Database=railway;Username=postgres;Password=aPElbuRsyAnSAEgJASKuVfsuoTxeDBXj";
+                Console.WriteLine($"Using hardcoded connection string: {connectionString}");
+            }
+
             builder.Services.AddDbContext<PlanetContext>(options =>
                 options.UseNpgsql(connectionString, npgsqlOptions =>
                 {
