@@ -25,6 +25,11 @@ namespace Agricultural
 
             // Add database context
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            }
+
             builder.Services.AddDbContext<PlanetContext>(options =>
                 options.UseNpgsql(connectionString, npgsqlOptions =>
                 {
@@ -105,6 +110,7 @@ namespace Agricultural
                 {
                     var logger = loggerFactory.CreateLogger<Program>();
                     logger.LogError(ex, "حدث خطأ أثناء تهيئة قاعدة البيانات أو تهيئة البيانات");
+                    throw; // إعادة رمي الاستثناء لمعرفة السبب الحقيقي
                 }
             }
             #endregion
