@@ -1,3 +1,4 @@
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\PlantImages.json
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\plants_data.json
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.deps.json
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.runtimeconfig.json

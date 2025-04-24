@@ -1,20 +1,28 @@
 {
   "Files": [
     {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Apple1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Apple2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Coffee plant1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Coffee plant2.jpg"
+    },
+    {
       "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn1.jpg",
       "PackagePath": "staticwebassets\\images\\plants\\Corn1.jpg"
     },
     {
       "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn2.jpg",
       "PackagePath": "staticwebassets\\images\\plants\\Corn2.jpg"
-    },
-    {
-      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Eggplant1.jpg",
-      "PackagePath": "staticwebassets\\images\\plants\\Eggplant1.jpg"
-    },
-    {
-      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Eggplant2.jpg",
-      "PackagePath": "staticwebassets\\images\\plants\\Eggplant2.jpg"
     },
     {
       "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic1.jpg",
@@ -25,12 +33,12 @@
       "PackagePath": "staticwebassets\\images\\plants\\Garlic2.jpg"
     },
     {
-      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Molokhiya1.jpg",
-      "PackagePath": "staticwebassets\\images\\plants\\Molokhiya1.jpg"
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Grape Fruit1.jpg"
     },
     {
-      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Molokhiya2.png",
-      "PackagePath": "staticwebassets\\images\\plants\\Molokhiya2.png"
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Grape Fruit2.jpg"
     },
     {
       "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions1.jpg",
@@ -55,6 +63,14 @@
     {
       "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato2.jpg",
       "PackagePath": "staticwebassets\\images\\plants\\Potato2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Sugar cane1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Sugar cane2.jpg"
     },
     {
       "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Tomato1.jpeg",

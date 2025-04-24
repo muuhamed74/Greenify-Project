@@ -26,6 +26,7 @@ RUN dotnet build "Agricultural.csproj" -c Release -o /app/build
 FROM build AS publish
 RUN dotnet publish "Agricultural.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
+
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
