@@ -24,12 +24,15 @@ namespace Agricultural
             builder.Services.AddSwaggerGen();
 
             // Add database context
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+      ?? Environment.GetEnvironmentVariable("CONNECTIONSTRINGS__DEFAULTCONNECTION");
 
-            builder.Services.AddDbContext<PlanetContext>(options =>
-                options.UseNpgsql(connectionString));
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                throw new InvalidOperationException("Connection string 'DefaultConnection' not found in configuration or environment variables.");
+            }
 
-            
+            Console.WriteLine($"Using connection string: {connectionString}");
 
             builder.Services.AddDbContext<PlanetContext>(options =>
                 options.UseNpgsql(connectionString, npgsqlOptions =>
