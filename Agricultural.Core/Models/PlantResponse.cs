@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Agricultural.Core.Models
 {
-    public class Chat_History : BaseEntity
+    public class PlantResponse : BaseEntity
     {
         public int UserId { get; set; }
         public string Message { get; set; }

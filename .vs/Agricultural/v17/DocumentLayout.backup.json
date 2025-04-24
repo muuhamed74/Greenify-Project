@@ -7,36 +7,8 @@
       "RelativeMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|solutionrelative:agricultural\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.repo\\migrations\\20250422183440_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|solutionrelative:agricultural.repo\\migrations\\20250422183440_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.repo\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|solutionrelative:agricultural.repo\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.repo\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|solutionrelative:agricultural.repo\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|e:\\graduation\\project coding\\agricultural\\agricultural\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|solutionrelative:agricultural\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28350383-66EE-4B43-AB10-77462E93D820}|Solution Items{28350383-66EE-4B43-AB10-77462E93D820}|E:\\Graduation\\Project coding\\Agricultural\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{28350383-66EE-4B43-AB10-77462E93D820}|Solution Items{28350383-66EE-4B43-AB10-77462E93D820}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|e:\\graduation\\project coding\\agricultural\\agricultural\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|solutionrelative:agricultural\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.repo\\data\\dataseeding\\plantimages.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|solutionrelative:agricultural.repo\\data\\dataseeding\\plantimages.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEC0E79C-8890-4BD4-BFB2-4D56EAF69085}|Agricultural.Core\\Agricultural.Core.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.core\\models\\plantsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEC0E79C-8890-4BD4-BFB2-4D56EAF69085}|Agricultural.Core\\Agricultural.Core.csproj|solutionrelative:agricultural.core\\models\\plantsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,7 +28,7 @@
               "RelativeDocumentMoniker": "Agricultural\\Program.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Program.cs",
               "RelativeToolTip": "Agricultural\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwCEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAASwHMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T03:48:30.067Z",
               "IsPinned": true,
@@ -69,99 +41,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250422183440_InitialCreate.cs",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Migrations\\20250422183440_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Agricultural.Repo\\Migrations\\20250422183440_InitialCreate.cs",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Migrations\\20250422183440_InitialCreate.cs",
-              "RelativeToolTip": "Agricultural.Repo\\Migrations\\20250422183440_InitialCreate.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T18:34:40.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Agricultural.Repo\\Data\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "Agricultural.Repo\\Data\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T18:29:07.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Agricultural.Repo\\Repositories\\GenericRepository.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "Agricultural.Repo\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwBsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T18:27:40.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\appsettings.json",
-              "RelativeDocumentMoniker": "Agricultural\\appsettings.json",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\appsettings.json",
-              "RelativeToolTip": "Agricultural\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-22T16:08:42.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-21T23:29:41.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlantsController.cs",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Controllers\\PlantsController.cs",
-              "RelativeDocumentMoniker": "Agricultural\\Controllers\\PlantsController.cs",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Controllers\\PlantsController.cs",
-              "RelativeToolTip": "Agricultural\\Controllers\\PlantsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:44:28.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlantImages.json",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DataSeeding\\PlantImages.json",
-              "RelativeDocumentMoniker": "Agricultural.Repo\\Data\\DataSeeding\\PlantImages.json",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DataSeeding\\PlantImages.json",
-              "RelativeToolTip": "Agricultural.Repo\\Data\\DataSeeding\\PlantImages.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-15T11:14:47.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlantSearchRequest.cs",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Core\\Models\\PlantSearchRequest.cs",
-              "RelativeDocumentMoniker": "Agricultural.Core\\Models\\PlantSearchRequest.cs",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Core\\Models\\PlantSearchRequest.cs",
-              "RelativeToolTip": "Agricultural.Core\\Models\\PlantSearchRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:59:35.621Z"
+              "WhenOpened": "2025-04-22T18:27:40.077Z",
+              "EditorCaption": ""
             }
           ]
         }

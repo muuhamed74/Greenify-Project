@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agricultural.Core.Models
 {
-    public class Guest_Sessions : BaseEntity
+    public class PlantAdditionalData : BaseEntity
     {
         public string SessionToken { get; set; }
     }

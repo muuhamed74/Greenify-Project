@@ -70,31 +70,7 @@ namespace Agricultural
 
             builder.Services.AddHttpContextAccessor();
 
-            // Configure Identity
-            //builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-            //    .AddEntityFrameworkStores<ApplicationDbContext>()
-            //    .AddDefaultTokenProviders();
-
-            // Add AutoMapper
-            //builder.Services.AddAutoMapper(typeof(MappingConfig));
-
-            //builder.Services.AddScoped<UserManager<ApplicationUser>>();
-            //builder.Services.AddScoped<SignInManager<ApplicationUser>>();
-            //builder.Services.AddScoped<RoleManager<IdentityRole>>();
-
-            // Add Services
-            //builder.Services.AddScoped<IAuthService, AuthService>();
-            //builder.Services.AddScoped<IUserService, UserService>();
-
-            // Add Repositories
-            //builder.Services.AddScoped<IUserRepository, UserRepository>();
-            //builder.Services.AddScoped<IImageRepository, ImageRepository>();
-
-            // Add OpenAPI with Bearer Authentication Support
-            //builder.Services.AddOpenApi("v1", options =>
-            //{
-            //    options.AddDocumentTransformer<BearerSecuritySchemeTransformer>();
-            //});
+          
 
             var app = builder.Build();
 

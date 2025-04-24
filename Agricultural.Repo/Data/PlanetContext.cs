@@ -19,10 +19,10 @@ namespace Agricultural.Repo.Data
         public DbSet<PlantsInfo> PlantsInfo { get; set; }
         public DbSet<PlantImages> PlantImages { get; set; }
         public DbSet<Users> Users { get; set; }
-        public DbSet<Image_Analysis> ImageAnalyses { get; set; }
+        public DbSet<PlantPrediction> PlantPrediction { get; set; }
         public DbSet<Uploaded_Images> UploadedImages { get; set; }
-        public DbSet<Guest_Sessions> GuestSessions { get; set; }
-        public DbSet<Chat_History> ChatHistories { get; set; }
+        public DbSet<PlantAdditionalData> PlantAdditionalData { get; set; }
+        public DbSet<PlantResponse> PlantResponse { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
