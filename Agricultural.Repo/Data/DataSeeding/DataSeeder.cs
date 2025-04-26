@@ -17,7 +17,7 @@ namespace Agricultural.Repo.Data.DataSeeding
                 #region PlantsInfo data seeding
                 if (!DbContext.PlantsInfo.Any())
                 {
-                    var plantsData = File.ReadAllText("Data/DataSeeding/plants_data.json");
+                    var plantsData = File.ReadAllText("DataSeeding\\plants_seeding_data(1).json"); 
                     var plants = JsonSerializer.Deserialize<List<PlantsInfo>>(plantsData);
 
                     if (plants?.Count > 0)
