@@ -24,34 +24,42 @@ namespace Agricultural.Repo.Data.configrations
                 .IsRequired()
                 .HasMaxLength(100);
 
-            builder.Property(p => p.SeasonType)
+            builder.Property(p => p.ScientificName)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            builder.Property(p => p.CareLevel)
                 .IsRequired()
                 .HasMaxLength(50);
 
-            builder.Property(p => p.SoilType)
+            builder.Property(p => p.Size)
                 .IsRequired()
                 .HasMaxLength(50);
 
-            // القيم الرقمية (درجة الحرارة والرطوبة)
-            builder.Property(p => p.TemperatureMin)
-                .HasColumnType("decimal(5,2)");
+            builder.Property(p => p.Edibility)
+                .IsRequired()
+                .HasMaxLength(50);
 
-            builder.Property(p => p.TemperatureMax)
-                .HasColumnType("decimal(5,2)");
+            builder.Property(p => p.About)
+                .IsRequired();
 
-            builder.Property(p => p.HumidityMin)
-                .HasColumnType("decimal(5,2)");
-
-            builder.Property(p => p.HumidityMax)
-                .HasColumnType("decimal(5,2)");
+            // تكوين العلاقة مع PlantDetails
+            builder.OwnsOne(p => p.Details, details =>
+            {
+                details.Property(d => d.Temperature).IsRequired();
+                details.Property(d => d.Sunlight).IsRequired();
+                details.Property(d => d.Water).IsRequired();
+                details.Property(d => d.Repotting).IsRequired();
+                details.Property(d => d.Fertilizing).IsRequired();
+                details.Property(d => d.Pests).IsRequired();
+            });
 
             // تحديد العلاقة بين `PlantInfo` و `PlantImages`
             builder.HasMany(p => p.PlantImages)
                 .WithOne(i => i.PlantsInfo)
                 .HasForeignKey(i => i.PlantsInfoId)
-                .OnDelete(DeleteBehavior.Cascade); // لو تم حذف النبات، نحذف الصور الخاصة به أيضًا
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
-
 }
 

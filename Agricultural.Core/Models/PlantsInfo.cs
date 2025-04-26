@@ -5,31 +5,50 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Agricultural.Core.Models
 {
     public class PlantsInfo : BaseEntity
     {
-
-        
+        [Required]
+        [MaxLength(100)]
         public string PlantName { get; set; }
-        public string SeasonType { get; set; }
-        public string SoilType { get; set; }
-        public double TemperatureMin { get; set; }
-        public double TemperatureMax { get; set; }
-        public double HumidityMin { get; set; }
-        public double HumidityMax { get; set; }
-        public string WaterNeeds { get; set; }
-        public string SunlightNeeds { get; set; }
-        public string GrowthTime { get; set; }
-        public string FertilizerType { get; set; }
-        public string CommonDiseases { get; set; }
-        public string PestControl { get; set; }
-        public string Uses { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string ScientificName { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string CareLevel { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string Size { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string Edibility { get; set; }
+
+        public bool Flowering { get; set; }
+        public bool Medicinal { get; set; }
+        public bool IsAirPurifying { get; set; }
+
+        [Required]
+        public string About { get; set; }
+
+        public PlantDetails Details { get; set; }
 
         //FK
-        public ICollection<PlantImages> PlantImages{ get; set; } = new List<PlantImages>();
+        public ICollection<PlantImages> PlantImages { get; set; } = new List<PlantImages>();
+    }
 
-
+    public class PlantDetails
+    {
+        public string Temperature { get; set; }
+        public string Sunlight { get; set; }
+        public string Water { get; set; }
+        public string Repotting { get; set; }
+        public string Fertilizing { get; set; }
+        public string Pests { get; set; }
     }
 }
