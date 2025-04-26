@@ -22,7 +22,6 @@ E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\wwwroot\
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\wwwroot\images\plants\Wheat2.jpg
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\wwwroot\images\plants\Zucchini1.jpg
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\wwwroot\images\plants\Zucchini2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Data\DataSeeding\PlantImages.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.staticwebassets.runtime.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.staticwebassets.endpoints.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.exe

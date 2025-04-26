@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Agricultural.Repo.Migrations
 {
     [DbContext(typeof(PlanetContext))]
-    [Migration("20250426174851_Initialcreate")]
+    [Migration("20250426201418_Initialcreate")]
     partial class Initialcreate
     {
         /// <inheritdoc />
