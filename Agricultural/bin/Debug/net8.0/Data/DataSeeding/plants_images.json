@@ -1,0 +1,90 @@
+[
+    {
+        "ImageUrl": "/images/plants/Grape Fruit1.jpeg",
+        "PlantsInfoId": 1
+    },
+    {
+        "ImageUrl": "/images/plants/Grape Fruit2.jpeg",
+        "PlantsInfoId": 1
+    },
+    {
+        "ImageUrl": "/images/plants/Potato1.jpg",
+        "PlantsInfoId": 2
+    },
+    {
+        "ImageUrl": "/images/plants/Potato2.jpg",
+        "PlantsInfoId": 2
+    },
+    {
+        "ImageUrl": "/images/plants/Apple1.jpg",
+        "PlantsInfoId": 3
+    },
+    {
+        "ImageUrl": "/images/plants/Apple2.jpg",
+        "PlantsInfoId": 3
+    },
+    {
+        "ImageUrl": "/images/plants/Coffee plant1.jpg",
+        "PlantsInfoId": 4
+    },
+    {
+        "ImageUrl": "/images/plants/Coffee plant2.jpg",
+        "PlantsInfoId": 4
+    },
+    {
+        "ImageUrl": "/images/plants/Corn1.jpg",
+        "PlantsInfoId": 5
+    },
+    {
+        "ImageUrl": "/images/plants/Corn2.jpg",
+        "PlantsInfoId": 5
+    },
+    {
+        "ImageUrl": "/images/plants/Wheat1.jpg",
+        "PlantsInfoId": 6
+    },
+    {
+        "ImageUrl": "/images/plants/Wheat2jpg",
+        "PlantsInfoId": 6
+    },
+    {
+        "ImageUrl": "/images/plants/Onions1.jpg",
+        "PlantsInfoId": 7
+    },
+    {
+        "ImageUrl": "/images/plants/Onions2.jpg",
+        "PlantsInfoId": 7
+    },
+    {
+        "ImageUrl": "/images/plants/Garlic1.jpg",
+        "PlantsInfoId": 8
+    },
+    {
+        "ImageUrl": "/images/plants/Garlic2.jpg",
+        "PlantsInfoId": 8
+    },
+    {
+        "ImageUrl": "/images/plants/Zucchini1.jpg",
+        "PlantsInfoId": 9
+    },
+    {
+        "ImageUrl": "/images/plants/Zucchini2.jpg",
+        "PlantsInfoId": 9
+    },
+    {
+        "ImageUrl": "/images/plants/Pepper1.jpg",
+        "PlantsInfoId": 10
+    },
+    {
+        "ImageUrl": "/images/plants/Pepper2.jpg",
+        "PlantsInfoId": 10
+    },
+    {
+        "ImageUrl": "/images/plants/Sugar cane1.jpg",
+        "PlantsInfoId": 10
+    },
+    {
+        "ImageUrl": "/images/plants/Sugar cane2.jpg",
+        "PlantsInfoId": 10
+    }
+]

@@ -16,3 +16,4 @@ E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\ref
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.pdb
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.genruntimeconfig.cache
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\ref\Agricultural.Repo.dll
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\plants_images.json

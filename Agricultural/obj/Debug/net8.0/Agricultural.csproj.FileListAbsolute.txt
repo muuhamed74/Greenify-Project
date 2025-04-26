@@ -178,3 +178,4 @@ E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\Agricult
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\Agricultural.genruntimeconfig.cache
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\ref\Agricultural.dll
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Data\DataSeeding\plants_images.json
