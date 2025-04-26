@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Agricultural\\Program.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Program.cs",
               "RelativeToolTip": "Agricultural\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T03:48:30.067Z",
               "IsPinned": true,
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Agricultural\\appsettings.Development.json",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\appsettings.Development.json",
               "RelativeToolTip": "Agricultural\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-24T23:12:02.002Z",
               "EditorCaption": ""
@@ -75,9 +75,10 @@
               "RelativeDocumentMoniker": "Agricultural.Repo\\Data\\PlanetContext.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\PlanetContext.cs",
               "RelativeToolTip": "Agricultural.Repo\\Data\\PlanetContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T22:59:28.878Z"
+              "WhenOpened": "2025-04-24T22:59:28.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
