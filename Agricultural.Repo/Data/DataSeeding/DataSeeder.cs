@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Agricultural.Core.Models;
+using System.IO;
 
 namespace Agricultural.Repo.Data.DataSeeding
 {
@@ -17,7 +18,9 @@ namespace Agricultural.Repo.Data.DataSeeding
                 #region PlantsInfo data seeding
                 if (!DbContext.PlantsInfo.Any())
                 {
-                    var plantsData = File.ReadAllText("Data/DataSeeding/plants_seeding_data.json"); 
+                    var baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                    var plantsDataPath = Path.Combine(baseDirectory, "Data", "DataSeeding", "plants_seeding_data.json");
+                    var plantsData = File.ReadAllText(plantsDataPath); 
                     var plants = JsonSerializer.Deserialize<List<PlantsInfo>>(plantsData);
 
                     if (plants?.Count > 0)
@@ -32,7 +35,9 @@ namespace Agricultural.Repo.Data.DataSeeding
                 #region Plant_Images data seeding
                 if (!DbContext.PlantImages.Any())
                 {
-                    var plantImagesData = File.ReadAllText("Data/DataSeeding/plants_images.json");
+                    var baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                    var plantImagesPath = Path.Combine(baseDirectory, "Data", "DataSeeding", "plants_images.json");
+                    var plantImagesData = File.ReadAllText(plantImagesPath);
                     var plantImages = JsonSerializer.Deserialize<List<PlantImages>>(plantImagesData);
 
                     if (plantImages?.Count > 0)
