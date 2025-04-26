@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Agricultural.Repo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd751072acd46eef203559defeebe3bbf8891bab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b591bfc27fdc585efc421369b02d156a4d2557b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Agricultural.Repo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Agricultural.Repo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
