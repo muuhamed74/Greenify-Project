@@ -48,5 +48,9 @@
       "applicationUrl": "http://localhost:24373",
       "sslPort": 44363
     }
-  }
+  },
+  "environmentVariables": {
+    "ASPNETCORE_ENVIRONMENT": "Development",
+    "CONNECTIONSTRINGS__DEFAULTCONNECTION": "Server=postgres.railway.internal;Port=5432;Database=railway;User Id=postgres;Password=aPElbuRsyAnSAEgJASKuVfsuoTxeDBXj;Trust Server Certificate=true;"
+}
 }

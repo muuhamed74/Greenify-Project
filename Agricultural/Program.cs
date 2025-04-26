@@ -1,4 +1,5 @@
-﻿using Agricultural.Repo.Data;
+﻿using Agricultural.Helpers;
+using Agricultural.Repo.Data;
 using Agricultural.Repo.Data.DataSeeding;
 using Agricultural.Repo.Repositories;
 using Agricultural.Serv.Services;
@@ -16,24 +17,15 @@ namespace Agricultural
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-
-            // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddSwaggerGen();
 
-            // Add database context
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-      ?? Environment.GetEnvironmentVariable("CONNECTIONSTRINGS__DEFAULTCONNECTION");
-
-            if (string.IsNullOrEmpty(connectionString))
-            {
-                throw new InvalidOperationException("Connection string 'DefaultConnection' not found in configuration or environment variables.");
-            }
-
+            // Get connection string using the helper method from DatabaseHelper
+            var connectionString = DatabaseHelper.GetConnectionString(builder.Configuration, builder.Environment);
             Console.WriteLine($"Using connection string: {connectionString}");
 
+            // Add database context
             builder.Services.AddDbContext<PlanetContext>(options =>
                 options.UseNpgsql(connectionString, npgsqlOptions =>
                 {
@@ -44,9 +36,7 @@ namespace Agricultural
                 }));
 
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            
             builder.Services.AddScoped<PlantsService>();
-
             builder.Services.AddAutoMapper(typeof(Program));
 
             builder.Services.AddSwaggerGen(c =>
@@ -70,11 +60,9 @@ namespace Agricultural
 
             builder.Services.AddHttpContextAccessor();
 
-          
-
             var app = builder.Build();
 
-            #region Update Database and Seed Data
+            #region Test Database Connection and Seed Data
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
@@ -83,20 +71,33 @@ namespace Agricultural
                 try
                 {
                     var dbContext = services.GetRequiredService<PlanetContext>();
-                    await dbContext.Database.MigrateAsync();
+                    var canConnect = await dbContext.Database.CanConnectAsync();
+                    if (canConnect)
+                    {
+                        Console.WriteLine("Connection successful!");
+                    }
+                    else
+                    {
+                        throw new InvalidOperationException("Failed to connect to the database.");
+                    }
+
+                    // Apply migrations manually before deployment
+                    // Run this command locally to apply migrations:
+                    // dotnet ef database update --connection "Host=crossover.proxy.rlwy.net;Port=36690;Database=railway;Username=postgres;Password=DGcdyrkPLsMXwurMtOPBuRNOLmETHtfy;SslMode=Require;TrustServerCertificate=true"
+
+                    // Seed data if needed
                     await DataSeeder.SeedAsync(dbContext);
                 }
                 catch (Exception ex)
                 {
                     var logger = loggerFactory.CreateLogger<Program>();
-                    logger.LogError(ex, "حدث خطأ أثناء تهيئة قاعدة البيانات أو تهيئة البيانات");
+                    logger.LogError(ex, "حدث خطأ أثناء الاتصال بقاعدة البيانات أو تهيئة البيانات");
+                    throw; // Re-throw to stop the application if connection fails
                 }
             }
             #endregion
 
             // Configure the HTTP request pipeline.
-
-            // الجزء التاني: الـ Middleware
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -132,17 +133,3 @@ namespace Agricultural
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,28 +6,13 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Agricultural.Repo.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class initialcreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "ChatHistories",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    UserId = table.Column<int>(type: "integer", nullable: false),
-                    Message = table.Column<string>(type: "text", nullable: false),
-                    BotResponse = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ChatHistories", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "GuestSessions",
+                name: "PlantAdditionalData",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -36,22 +21,7 @@ namespace Agricultural.Repo.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_GuestSessions", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "ImageAnalyses",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    ImageId = table.Column<int>(type: "integer", nullable: false),
-                    Analysis_Type = table.Column<string>(type: "text", nullable: false),
-                    Result = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ImageAnalyses", x => x.Id);
+                    table.PrimaryKey("PK_PlantAdditionalData", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -78,6 +48,34 @@ namespace Agricultural.Repo.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_PlantInfos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "PlantPrediction",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Analysis_Type = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PlantPrediction", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "PlantResponse",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    UserId = table.Column<int>(type: "integer", nullable: false),
+                    Message = table.Column<string>(type: "text", nullable: false),
+                    BotResponse = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PlantResponse", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -139,16 +137,16 @@ namespace Agricultural.Repo.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "ChatHistories");
-
-            migrationBuilder.DropTable(
-                name: "GuestSessions");
-
-            migrationBuilder.DropTable(
-                name: "ImageAnalyses");
+                name: "PlantAdditionalData");
 
             migrationBuilder.DropTable(
                 name: "PlantImages");
+
+            migrationBuilder.DropTable(
+                name: "PlantPrediction");
+
+            migrationBuilder.DropTable(
+                name: "PlantResponse");
 
             migrationBuilder.DropTable(
                 name: "UploadedImages");

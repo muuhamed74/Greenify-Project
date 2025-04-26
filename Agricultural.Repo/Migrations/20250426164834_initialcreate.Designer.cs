@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Agricultural.Repo.Migrations
 {
     [DbContext(typeof(PlanetContext))]
-    [Migration("20250422183440_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250426164834_initialcreate")]
+    partial class initialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,31 +24,7 @@ namespace Agricultural.Repo.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Agricultural.Core.Models.Chat_History", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("BotResponse")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ChatHistories");
-                });
-
-            modelBuilder.Entity("Agricultural.Core.Models.Guest_Sessions", b =>
+            modelBuilder.Entity("Agricultural.Core.Models.PlantAdditionalData", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -62,31 +38,7 @@ namespace Agricultural.Repo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("GuestSessions");
-                });
-
-            modelBuilder.Entity("Agricultural.Core.Models.Image_Analysis", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Analysis_Type")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("ImageId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Result")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ImageAnalyses");
+                    b.ToTable("PlantAdditionalData");
                 });
 
             modelBuilder.Entity("Agricultural.Core.Models.PlantImages", b =>
@@ -110,6 +62,47 @@ namespace Agricultural.Repo.Migrations
                     b.HasIndex("PlantsInfoId");
 
                     b.ToTable("PlantImages", (string)null);
+                });
+
+            modelBuilder.Entity("Agricultural.Core.Models.PlantPrediction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Analysis_Type")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PlantPrediction");
+                });
+
+            modelBuilder.Entity("Agricultural.Core.Models.PlantResponse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BotResponse")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PlantResponse");
                 });
 
             modelBuilder.Entity("Agricultural.Core.Models.PlantsInfo", b =>
