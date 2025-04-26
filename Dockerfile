@@ -14,9 +14,3 @@ RUN dotnet build "./Agricultural.csproj" -c Release -o /app/build
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/build .
-# نسخ ملفات البيانات
-COPY ["Agricultural.Repo/Data/DataSeeding/plants_seeding_data.json", "/app/Data/DataSeeding/"]
-COPY ["Agricultural.Repo/Data/DataSeeding/plants_images.json", "/app/Data/DataSeeding/"]
-EXPOSE 8080
-ENV ASPNETCORE_URLS=http://+:8080
-ENTRYPOINT ["dotnet", "Agricultural.dll"]
