@@ -18,7 +18,7 @@ namespace Agricultural.Repo.Data.DataSeeding
                 #region PlantsInfo data seeding
                 if (!DbContext.PlantsInfo.Any())
                 {
-                    var plantsDataPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "DataSeeding", "plants_seeding_data.json");
+                    var plantsDataPath = Path.Combine("Agricultural.Repo", "Data", "DataSeeding", "plants_seeding_data.json");
                     Console.WriteLine($"Attempting to read file from: {plantsDataPath}");
                     
                     if (!File.Exists(plantsDataPath))
@@ -41,7 +41,7 @@ namespace Agricultural.Repo.Data.DataSeeding
                 #region Plant_Images data seeding
                 if (!DbContext.PlantImages.Any())
                 {
-                    var plantImagesPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "DataSeeding", "plants_images.json");
+                    var plantImagesPath = Path.Combine("Agricultural.Repo", "Data", "DataSeeding", "plants_images.json");
                     Console.WriteLine($"Attempting to read file from: {plantImagesPath}");
                     
                     if (!File.Exists(plantImagesPath))
