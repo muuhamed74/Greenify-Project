@@ -15,18 +15,17 @@ namespace Agricultural.Repo.Data.DataSeeding
         {
             try
             {
-                // Remove existing data to ensure a clean slate
+                // إزالة البيانات الحالية لضمان نظافة البيانات
                 DbContext.PlantImages.RemoveRange(DbContext.PlantImages);
                 DbContext.PlantsInfo.RemoveRange(DbContext.PlantsInfo);
                 await DbContext.SaveChangesAsync();
                 Console.WriteLine("Cleared existing data from PlantInfos and PlantImages.");
 
                 #region PlantsInfo data seeding
-                // Get the parent directory of the app (Solution_Agricultural/)
+                // الحصول على المسار الرئيسي للتطبيق
                 string baseDir = Directory.GetParent(AppContext.BaseDirectory)?.FullName ?? AppContext.BaseDirectory;
                 Console.WriteLine($"Base directory: {baseDir}");
 
-                // Construct the path to the file in the parent directory
                 string plantsFilePath = Path.Combine(baseDir, "Data", "DataSeeding", "plants_seeding_data.json");
                 Console.WriteLine($"Looking for plants_seeding_data.json at: {plantsFilePath}");
 
@@ -41,17 +40,11 @@ namespace Agricultural.Repo.Data.DataSeeding
                 if (plants?.Count > 0)
                 {
                     Console.WriteLine($"Seeding {plants.Count} PlantsInfo records...");
-                    int index = 1;
-                    foreach (var plant in plants)
-                    {
-                        Console.WriteLine($"PlantInfo #{index}: Name={plant.PlantName}, ScientificName={plant.ScientificName}, CareLevel={plant.CareLevel}, Size={plant.Size}, Edibility={plant.Edibility}, About={plant.About}, Details={plant.Details?.ToString() ?? "null"}");
-                        index++;
-                    }
                     await DbContext.Set<PlantsInfo>().AddRangeAsync(plants);
-                    await DbContext.SaveChangesAsync();
+                    await DbContext.SaveChangesAsync();  // الآن لدينا الـ IDs الحقيقية للنباتات في الـ DB
+
                     var addedPlants = await DbContext.PlantsInfo.ToListAsync();
                     Console.WriteLine($"Successfully added {addedPlants.Count} PlantsInfo records. IDs: [{string.Join(", ", addedPlants.Select(p => p.Id))}]");
-                    Console.WriteLine("PlantsInfo data seeded successfully!");
                 }
                 #endregion
 
@@ -70,40 +63,37 @@ namespace Agricultural.Repo.Data.DataSeeding
                 if (plantImages?.Count > 0)
                 {
                     Console.WriteLine($"Deserialized {plantImages.Count} PlantImages records...");
+
+                    // الحصول على جميع الـ Ids الحقيقية من PlantsInfo
+                    var validPlantIds = await DbContext.PlantsInfo.Select(p => p.Id).ToListAsync();
+
+                    // تحديث الـ PlantsInfoId في الصور ليتناسب مع الـ Ids الحقيقية في قاعدة البيانات
                     foreach (var image in plantImages)
                     {
-                        Console.WriteLine($"PlantImage: Id={image.Id}, PlantsInfoId={image.PlantsInfoId}");
-                    }
-
-                    // Get all PlantsInfo IDs from the database
-                    var validPlantIds = await DbContext.PlantsInfo.Select(p => p.Id).ToListAsync();
-                    Console.WriteLine($"Valid PlantsInfo IDs in database: [{string.Join(", ", validPlantIds)}]");
-
-                    // Filter PlantImages to only include those with valid PlantsInfoId
-                    var validPlantImages = plantImages.Where(pi => validPlantIds.Contains(pi.PlantsInfoId)).ToList();
-
-                    if (validPlantImages.Count > 0)
-                    {
-                        Console.WriteLine($"Seeding {validPlantImages.Count} valid PlantImages records...");
-                        foreach (var image in validPlantImages)
+                        int originalIndex = image.PlantsInfoId; // هذا هو الرقم الذي كان في الـ JSON
+                        if (originalIndex >= 1 && originalIndex <= validPlantIds.Count)
                         {
-                            Console.WriteLine($"Inserting PlantImage: Id={image.Id}, PlantsInfoId={image.PlantsInfoId}, ImageUrl={image.ImageUrl}");
+                            // ربط الصورة بالنبتة الصحيحة باستخدام الـ Id الحقيقي
+                            image.PlantsInfoId = validPlantIds[originalIndex - 1];
                         }
-                        await DbContext.Set<PlantImages>().AddRangeAsync(validPlantImages);
-                        await DbContext.SaveChangesAsync();
-                        Console.WriteLine("Plant_Images data seeded successfully!");
+                        else
+                        {
+                            Console.WriteLine($"Warning: Invalid PlantsInfoId {originalIndex} for image: {image.ImageUrl}");
+                        }
                     }
-                    else
-                    {
-                        Console.WriteLine("No valid PlantImages to seed (invalid PlantsInfoId values).");
-                    }
+
+                    // إدخال الصور باستخدام المعرفات الصحيحة
+                    await DbContext.Set<PlantImages>().AddRangeAsync(plantImages);
+                    await DbContext.SaveChangesAsync();
+                    Console.WriteLine("Plant_Images data seeded successfully!");
                 }
                 #endregion
             }
             catch (Exception ex)
             {
-                throw new Exception($"خطأ أثناء تهيئة البيانات: {ex.Message}", ex);
+                throw new Exception($"Error during data seeding: {ex.Message}", ex);
             }
         }
+
     }
 }
