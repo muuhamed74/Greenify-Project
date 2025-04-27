@@ -26,7 +26,6 @@ E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricult
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.staticwebassets.endpoints.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.exe
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Data\DataSeeding\plants_images.json
-E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Data\DataSeeding\plants_seeding_data .json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\appsettings.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\appsettings.Development.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.deps.json

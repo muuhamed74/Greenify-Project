@@ -1,0 +1,2494 @@
+{
+  "Version": 1,
+  "Hash": "f0ruTPWzAEY6e0/R4qfjRXCqzA905pgMgKA6P+EVCZ0=",
+  "Source": "Agricultural",
+  "BasePath": "_content/Agricultural",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Agricultural\\wwwroot",
+      "Source": "Agricultural",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Apple1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2z0g1p6rr",
+      "Integrity": "Z4o1YEgLfJDolviWlDGb+gQUE7li5Jf67Nois/8t3cg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Apple1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Apple2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hidema5cbh",
+      "Integrity": "FzbCc899NI/xNECRgaqPupp/HuGR7Svk/r/Oin1zQYQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Apple2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Coffee plant1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zso43ninor",
+      "Integrity": "bSpw18rBG5aeI6vNrW5/hicAPShKIsDSicBiDQZVfyU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Coffee plant1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Coffee plant2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jqmmg2f83x",
+      "Integrity": "ZZuFFIxnfpPa8KIoo3oF66ld+Q/R0/5e3S9l6ngvx3w=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Coffee plant2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Corn1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w4ukosqjgv",
+      "Integrity": "cMJNiyx9dlm4+s94cJ8LhnlHTPBkQ4Z+grufjojQn+M=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Corn1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Corn2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q592ff846y",
+      "Integrity": "Itqua/1xpY7jhfkH1SPUOb0d8I8kqOP5zKDSlblfsI8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Corn2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Garlic1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu8b52q62n",
+      "Integrity": "eXFXkG9ZNPy1IaxuK42im1s92R0sCGjGFs3hfMMqG68=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Garlic1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Garlic2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eua9zkma58",
+      "Integrity": "2q3k3Tzjq2+9m3eL4VKXh/8NJZexL5AttMWqQ6Ey4N4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Garlic2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Grape Fruit1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jd1388dczt",
+      "Integrity": "tyEKpWeQzDY4By8J7erqvwIi5kZpAic8r8imsDilfXU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Grape Fruit1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Grape Fruit2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8rhrsz7oq",
+      "Integrity": "3YCSomgwjhyYNA3mN2XtGZh1Gj38wAj7HIqcvA753SQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Grape Fruit2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Onions1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rwcba8q6fe",
+      "Integrity": "5V/+1rjHjqHgCK8ULlRpAWMnl5F5WZVT2qLqTQHw7QM=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Onions1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Onions2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c848xub8hi",
+      "Integrity": "lI+MwdKmwAKIB4QFa70eSxB+jFnnCUiz/1e3MPtMQHk=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Onions2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Pepper1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6rkvwoqxq4",
+      "Integrity": "0tpRY2DYlEkFxSLFm2Hfamtp5nCuOIwJFStUOK+cV6U=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Pepper1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Pepper2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wc1c1tlfk9",
+      "Integrity": "ICnPK12zOJ3NOsipxGCr7ed6UbtXIQ1+geumm4yVy3g=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Pepper2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Potato1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fqhnby1vb4",
+      "Integrity": "ecPXk5DMj5+kj7zKdoxBMHET5g1gTJACGIbhTfjeEAk=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Potato1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Potato2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mqmwh28a2s",
+      "Integrity": "HjTZRBvGdcd98UKGefOX/jOIvPgMMH0qmT66581WJo8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Potato2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Sugar cane1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yovybe0ftz",
+      "Integrity": "DoiJVn6RrF+L9i2pJ9f1SdKJKMtrx1EMfOHLPaut+Oc=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Sugar cane1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Sugar cane2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "onorl3ex4t",
+      "Integrity": "bAlRhavSVs7yPsHHkASLqgpQVjZR85kLOmucY9Q+VTw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Sugar cane2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Tomato1.jpeg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Tomato1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dm9o43yz19",
+      "Integrity": "tZYvDU+EIP0yNVzpU2nQIjY+HxDJwAd9uLMFu1rzdlw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Tomato1.jpeg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Tomato2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Tomato2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "48yuiwtffc",
+      "Integrity": "xGphBo2e5wgP6HQmfiYzx2iHywYdCFAG3tz8EUqyupo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Tomato2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Wheat1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gru0gonlsg",
+      "Integrity": "RETESm1CArjuqxiMWMsmsT5yd+69g+yqSJhYQj95Tlw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Wheat1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Wheat2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ksoe8o816",
+      "Integrity": "cOvdd1WxVqnYYa2u4ytOzB8DtmYmrn7Nw6n0exyeigg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Wheat2.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini1.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Zucchini1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i7qaaelijg",
+      "Integrity": "LrWs4O2cxyAl6OSI0AN2uPIromFToPE1WZ+mzh+Fvcg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Zucchini1.jpg"
+    },
+    {
+      "Identity": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini2.jpg",
+      "SourceId": "Agricultural",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\",
+      "BasePath": "_content/Agricultural",
+      "RelativePath": "images/plants/Zucchini2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjyz09ra1k",
+      "Integrity": "VXIAStebVUGMdN6JxRA92Gh/fKArY8zIHBF24y5HGAo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plants\\Zucchini2.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/plants/Apple1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z4o1YEgLfJDolviWlDGb+gQUE7li5Jf67Nois/8t3cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z4o1YEgLfJDolviWlDGb+gQUE7li5Jf67Nois/8t3cg="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Apple1.x2z0g1p6rr.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z4o1YEgLfJDolviWlDGb+gQUE7li5Jf67Nois/8t3cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2z0g1p6rr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Apple1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z4o1YEgLfJDolviWlDGb+gQUE7li5Jf67Nois/8t3cg="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Apple2.hidema5cbh.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FzbCc899NI/xNECRgaqPupp/HuGR7Svk/r/Oin1zQYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hidema5cbh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Apple2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FzbCc899NI/xNECRgaqPupp/HuGR7Svk/r/Oin1zQYQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Apple2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FzbCc899NI/xNECRgaqPupp/HuGR7Svk/r/Oin1zQYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FzbCc899NI/xNECRgaqPupp/HuGR7Svk/r/Oin1zQYQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Coffee plant1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSpw18rBG5aeI6vNrW5/hicAPShKIsDSicBiDQZVfyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bSpw18rBG5aeI6vNrW5/hicAPShKIsDSicBiDQZVfyU="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Coffee plant1.zso43ninor.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSpw18rBG5aeI6vNrW5/hicAPShKIsDSicBiDQZVfyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zso43ninor"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Coffee plant1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bSpw18rBG5aeI6vNrW5/hicAPShKIsDSicBiDQZVfyU="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Coffee plant2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZuFFIxnfpPa8KIoo3oF66ld+Q/R0/5e3S9l6ngvx3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZuFFIxnfpPa8KIoo3oF66ld+Q/R0/5e3S9l6ngvx3w="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Coffee plant2.jqmmg2f83x.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee plant2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZuFFIxnfpPa8KIoo3oF66ld+Q/R0/5e3S9l6ngvx3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jqmmg2f83x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Coffee plant2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZuFFIxnfpPa8KIoo3oF66ld+Q/R0/5e3S9l6ngvx3w="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Corn1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cMJNiyx9dlm4+s94cJ8LhnlHTPBkQ4Z+grufjojQn+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:00:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMJNiyx9dlm4+s94cJ8LhnlHTPBkQ4Z+grufjojQn+M="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Corn1.w4ukosqjgv.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cMJNiyx9dlm4+s94cJ8LhnlHTPBkQ4Z+grufjojQn+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:00:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w4ukosqjgv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Corn1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMJNiyx9dlm4+s94cJ8LhnlHTPBkQ4Z+grufjojQn+M="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Corn2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Itqua/1xpY7jhfkH1SPUOb0d8I8kqOP5zKDSlblfsI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:01:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Itqua/1xpY7jhfkH1SPUOb0d8I8kqOP5zKDSlblfsI8="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Corn2.q592ff846y.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Itqua/1xpY7jhfkH1SPUOb0d8I8kqOP5zKDSlblfsI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:01:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q592ff846y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Corn2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Itqua/1xpY7jhfkH1SPUOb0d8I8kqOP5zKDSlblfsI8="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Garlic1.fu8b52q62n.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eXFXkG9ZNPy1IaxuK42im1s92R0sCGjGFs3hfMMqG68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu8b52q62n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Garlic1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eXFXkG9ZNPy1IaxuK42im1s92R0sCGjGFs3hfMMqG68="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Garlic1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eXFXkG9ZNPy1IaxuK42im1s92R0sCGjGFs3hfMMqG68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eXFXkG9ZNPy1IaxuK42im1s92R0sCGjGFs3hfMMqG68="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Garlic2.eua9zkma58.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17240"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2q3k3Tzjq2+9m3eL4VKXh/8NJZexL5AttMWqQ6Ey4N4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:32:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eua9zkma58"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Garlic2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2q3k3Tzjq2+9m3eL4VKXh/8NJZexL5AttMWqQ6Ey4N4="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Garlic2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17240"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2q3k3Tzjq2+9m3eL4VKXh/8NJZexL5AttMWqQ6Ey4N4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:32:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2q3k3Tzjq2+9m3eL4VKXh/8NJZexL5AttMWqQ6Ey4N4="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Grape Fruit1.jd1388dczt.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyEKpWeQzDY4By8J7erqvwIi5kZpAic8r8imsDilfXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:21:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jd1388dczt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Grape Fruit1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tyEKpWeQzDY4By8J7erqvwIi5kZpAic8r8imsDilfXU="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Grape Fruit1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyEKpWeQzDY4By8J7erqvwIi5kZpAic8r8imsDilfXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:21:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tyEKpWeQzDY4By8J7erqvwIi5kZpAic8r8imsDilfXU="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Grape Fruit2.j8rhrsz7oq.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3YCSomgwjhyYNA3mN2XtGZh1Gj38wAj7HIqcvA753SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:21:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8rhrsz7oq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Grape Fruit2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3YCSomgwjhyYNA3mN2XtGZh1Gj38wAj7HIqcvA753SQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Grape Fruit2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape Fruit2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3YCSomgwjhyYNA3mN2XtGZh1Gj38wAj7HIqcvA753SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:21:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3YCSomgwjhyYNA3mN2XtGZh1Gj38wAj7HIqcvA753SQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Onions1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5V/+1rjHjqHgCK8ULlRpAWMnl5F5WZVT2qLqTQHw7QM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:31:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5V/+1rjHjqHgCK8ULlRpAWMnl5F5WZVT2qLqTQHw7QM="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Onions1.rwcba8q6fe.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5V/+1rjHjqHgCK8ULlRpAWMnl5F5WZVT2qLqTQHw7QM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:31:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rwcba8q6fe"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Onions1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5V/+1rjHjqHgCK8ULlRpAWMnl5F5WZVT2qLqTQHw7QM="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Onions2.c848xub8hi.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lI+MwdKmwAKIB4QFa70eSxB+jFnnCUiz/1e3MPtMQHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:31:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c848xub8hi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Onions2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lI+MwdKmwAKIB4QFa70eSxB+jFnnCUiz/1e3MPtMQHk="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Onions2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lI+MwdKmwAKIB4QFa70eSxB+jFnnCUiz/1e3MPtMQHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:31:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lI+MwdKmwAKIB4QFa70eSxB+jFnnCUiz/1e3MPtMQHk="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Pepper1.6rkvwoqxq4.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0tpRY2DYlEkFxSLFm2Hfamtp5nCuOIwJFStUOK+cV6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:42:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6rkvwoqxq4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Pepper1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0tpRY2DYlEkFxSLFm2Hfamtp5nCuOIwJFStUOK+cV6U="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Pepper1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0tpRY2DYlEkFxSLFm2Hfamtp5nCuOIwJFStUOK+cV6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:42:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0tpRY2DYlEkFxSLFm2Hfamtp5nCuOIwJFStUOK+cV6U="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Pepper2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ICnPK12zOJ3NOsipxGCr7ed6UbtXIQ1+geumm4yVy3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:37:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ICnPK12zOJ3NOsipxGCr7ed6UbtXIQ1+geumm4yVy3g="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Pepper2.wc1c1tlfk9.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ICnPK12zOJ3NOsipxGCr7ed6UbtXIQ1+geumm4yVy3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:37:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wc1c1tlfk9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Pepper2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ICnPK12zOJ3NOsipxGCr7ed6UbtXIQ1+geumm4yVy3g="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Potato1.fqhnby1vb4.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1628791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ecPXk5DMj5+kj7zKdoxBMHET5g1gTJACGIbhTfjeEAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:50:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fqhnby1vb4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Potato1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ecPXk5DMj5+kj7zKdoxBMHET5g1gTJACGIbhTfjeEAk="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Potato1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1628791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ecPXk5DMj5+kj7zKdoxBMHET5g1gTJACGIbhTfjeEAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:50:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ecPXk5DMj5+kj7zKdoxBMHET5g1gTJACGIbhTfjeEAk="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Potato2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2026331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HjTZRBvGdcd98UKGefOX/jOIvPgMMH0qmT66581WJo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HjTZRBvGdcd98UKGefOX/jOIvPgMMH0qmT66581WJo8="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Potato2.mqmwh28a2s.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2026331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HjTZRBvGdcd98UKGefOX/jOIvPgMMH0qmT66581WJo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mqmwh28a2s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Potato2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HjTZRBvGdcd98UKGefOX/jOIvPgMMH0qmT66581WJo8="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Sugar cane1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DoiJVn6RrF+L9i2pJ9f1SdKJKMtrx1EMfOHLPaut+Oc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:29:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DoiJVn6RrF+L9i2pJ9f1SdKJKMtrx1EMfOHLPaut+Oc="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Sugar cane1.yovybe0ftz.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DoiJVn6RrF+L9i2pJ9f1SdKJKMtrx1EMfOHLPaut+Oc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:29:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yovybe0ftz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Sugar cane1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DoiJVn6RrF+L9i2pJ9f1SdKJKMtrx1EMfOHLPaut+Oc="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Sugar cane2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bAlRhavSVs7yPsHHkASLqgpQVjZR85kLOmucY9Q+VTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:29:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bAlRhavSVs7yPsHHkASLqgpQVjZR85kLOmucY9Q+VTw="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Sugar cane2.onorl3ex4t.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar cane2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bAlRhavSVs7yPsHHkASLqgpQVjZR85kLOmucY9Q+VTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:29:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "onorl3ex4t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Sugar cane2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bAlRhavSVs7yPsHHkASLqgpQVjZR85kLOmucY9Q+VTw="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Tomato1.dm9o43yz19.jpeg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Tomato1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tZYvDU+EIP0yNVzpU2nQIjY+HxDJwAd9uLMFu1rzdlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dm9o43yz19"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Tomato1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tZYvDU+EIP0yNVzpU2nQIjY+HxDJwAd9uLMFu1rzdlw="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Tomato1.jpeg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Tomato1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tZYvDU+EIP0yNVzpU2nQIjY+HxDJwAd9uLMFu1rzdlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tZYvDU+EIP0yNVzpU2nQIjY+HxDJwAd9uLMFu1rzdlw="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Tomato2.48yuiwtffc.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Tomato2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75898"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xGphBo2e5wgP6HQmfiYzx2iHywYdCFAG3tz8EUqyupo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:56:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48yuiwtffc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Tomato2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xGphBo2e5wgP6HQmfiYzx2iHywYdCFAG3tz8EUqyupo="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Tomato2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Tomato2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75898"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xGphBo2e5wgP6HQmfiYzx2iHywYdCFAG3tz8EUqyupo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:56:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xGphBo2e5wgP6HQmfiYzx2iHywYdCFAG3tz8EUqyupo="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Wheat1.gru0gonlsg.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RETESm1CArjuqxiMWMsmsT5yd+69g+yqSJhYQj95Tlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:40:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gru0gonlsg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Wheat1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RETESm1CArjuqxiMWMsmsT5yd+69g+yqSJhYQj95Tlw="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Wheat1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RETESm1CArjuqxiMWMsmsT5yd+69g+yqSJhYQj95Tlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:40:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RETESm1CArjuqxiMWMsmsT5yd+69g+yqSJhYQj95Tlw="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Wheat2.0ksoe8o816.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "405565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOvdd1WxVqnYYa2u4ytOzB8DtmYmrn7Nw6n0exyeigg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:30:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ksoe8o816"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Wheat2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cOvdd1WxVqnYYa2u4ytOzB8DtmYmrn7Nw6n0exyeigg="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Wheat2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "405565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOvdd1WxVqnYYa2u4ytOzB8DtmYmrn7Nw6n0exyeigg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:30:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cOvdd1WxVqnYYa2u4ytOzB8DtmYmrn7Nw6n0exyeigg="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Zucchini1.i7qaaelijg.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LrWs4O2cxyAl6OSI0AN2uPIromFToPE1WZ+mzh+Fvcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 09:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7qaaelijg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Zucchini1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LrWs4O2cxyAl6OSI0AN2uPIromFToPE1WZ+mzh+Fvcg="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Zucchini1.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LrWs4O2cxyAl6OSI0AN2uPIromFToPE1WZ+mzh+Fvcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 09:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LrWs4O2cxyAl6OSI0AN2uPIromFToPE1WZ+mzh+Fvcg="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Zucchini2.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXIAStebVUGMdN6JxRA92Gh/fKArY8zIHBF24y5HGAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 09:12:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VXIAStebVUGMdN6JxRA92Gh/fKArY8zIHBF24y5HGAo="
+        }
+      ]
+    },
+    {
+      "Route": "images/plants/Zucchini2.vjyz09ra1k.jpg",
+      "AssetFile": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXIAStebVUGMdN6JxRA92Gh/fKArY8zIHBF24y5HGAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 09:12:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjyz09ra1k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/plants/Zucchini2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VXIAStebVUGMdN6JxRA92Gh/fKArY8zIHBF24y5HGAo="
+        }
+      ]
+    }
+  ]
+}
