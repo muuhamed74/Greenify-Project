@@ -19,11 +19,10 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/build .
 
-# مهم: Data لازم يكون موجود
-COPY --from=build /src/Agricultural.Repo/Data /app/Data
+# مهم: Data يتم نسخه مباشرة من السياق
+COPY Agricultural.Repo/Data /app/Data
 
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
 ENTRYPOINT ["dotnet", "Agricultural.dll"]
-

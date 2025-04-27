@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Graduation\\Project coding\\Agricultural\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28350383-66EE-4B43-AB10-77462E93D820}|Solution Items{28350383-66EE-4B43-AB10-77462E93D820}|E:\\Graduation\\Project coding\\Agricultural\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{28350383-66EE-4B43-AB10-77462E93D820}|Solution Items{28350383-66EE-4B43-AB10-77462E93D820}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Migrations\\20250427220803_Modifingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Agricultural.Repo\\Migrations\\20250427220803_Modifingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.repo\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|solutionrelative:agricultural.repo\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.repo\\data\\dataseeding\\plants_seeding_data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B72E516C-5870-4E19-9CC9-5905353A9C14}|Agricultural.Repo\\Agricultural.Repo.csproj|solutionrelative:agricultural.repo\\data\\dataseeding\\plants_seeding_data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|e:\\graduation\\project coding\\agricultural\\agricultural\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -58,7 +62,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Program.cs",
               "RelativeDocumentMoniker": "Agricultural\\Program.cs",
@@ -72,14 +76,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-27T17:02:00.636Z",
+              "Title": "20250427220803_Modifingdata.cs",
+              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Migrations\\20250427220803_Modifingdata.cs",
+              "RelativeDocumentMoniker": "Agricultural.Repo\\Migrations\\20250427220803_Modifingdata.cs",
+              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Migrations\\20250427220803_Modifingdata.cs",
+              "RelativeToolTip": "Agricultural.Repo\\Migrations\\20250427220803_Modifingdata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:08:03.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "plants_seeding_data.json",
+              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DataSeeding\\plants_seeding_data.json",
+              "RelativeDocumentMoniker": "Agricultural.Repo\\Data\\DataSeeding\\plants_seeding_data.json",
+              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DataSeeding\\plants_seeding_data.json",
+              "RelativeToolTip": "Agricultural.Repo\\Data\\DataSeeding\\plants_seeding_data.json",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAALgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T21:50:52.587Z",
               "EditorCaption": ""
             },
             {
@@ -94,14 +111,14 @@
               "RelativeDocumentMoniker": "Agricultural.Repo\\Data\\DataSeeder.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DataSeeder.cs",
               "RelativeToolTip": "Agricultural.Repo\\Data\\DataSeeder.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAwGwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T15:48:36.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20250427144527_Initialcreate.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Migrations\\20250427144527_Initialcreate.cs",
               "RelativeDocumentMoniker": "Agricultural.Repo\\Migrations\\20250427144527_Initialcreate.cs",
@@ -113,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlantInfoDTO.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Core\\DTOs\\PlantInfoDTO.cs",
               "RelativeDocumentMoniker": "Agricultural.Core\\DTOs\\PlantInfoDTO.cs",
@@ -125,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\appsettings.json",
               "RelativeDocumentMoniker": "Agricultural\\appsettings.json",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DesignTimeDbContextFactory.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\DesignTimeDbContextFactory.cs",
               "RelativeDocumentMoniker": "Agricultural.Repo\\Data\\DesignTimeDbContextFactory.cs",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlanetContext.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Repo\\Data\\PlanetContext.cs",
               "RelativeDocumentMoniker": "Agricultural.Repo\\Data\\PlanetContext.cs",
@@ -161,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Dockerfile",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Dockerfile",
               "RelativeDocumentMoniker": "Agricultural\\Dockerfile",
@@ -173,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Agricultural\\appsettings.Development.json",
@@ -185,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Helpers\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "Agricultural\\Helpers\\DatabaseHelper.cs",
