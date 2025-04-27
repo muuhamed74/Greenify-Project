@@ -47,11 +47,5 @@
   </Content>
  </ItemGroup>
 
-<ItemGroup>
-  <Content Include="Data\DataSeeding\**\*.*">
-    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-  </Content>
-</ItemGroup>
-
 
 </Project>

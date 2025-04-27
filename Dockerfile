@@ -6,7 +6,7 @@ COPY ["Agricultural.Core/Agricultural.Core.csproj", "Agricultural.Core/"]
 COPY ["Agricultural.Repo/Agricultural.Repo.csproj", "Agricultural.Repo/"]
 COPY ["Agricultural.Serv/Agricultural.Serv.csproj", "Agricultural.Serv/"]
 RUN dotnet restore "./Agricultural/Agricultural.csproj"
-COPY . .
+COPY . .  # التأكد من نسخ كل شيء
 WORKDIR "/src/Agricultural"
 RUN dotnet build "./Agricultural.csproj" -c Release -o /app/build
 
@@ -15,7 +15,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/build .
 # نسخ مجلد البيانات بالكامل
-COPY ["Agricultural.Repo/Data", "/app/Data"]
+COPY ["src/Agricultural.Repo/Data", "/app/Data"]
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 ENTRYPOINT ["dotnet", "Agricultural.dll"]
