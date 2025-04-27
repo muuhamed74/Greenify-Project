@@ -48,10 +48,7 @@
  </ItemGroup>
 
 <ItemGroup>
-  <Content Include="Data\DataSeeding\plants_seeding_data.json">
-    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-  </Content>
-  <Content Include="Data\DataSeeding\plants_images.json">
+  <Content Include="Data\DataSeeding\**\*.*">
     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
   </Content>
 </ItemGroup>
