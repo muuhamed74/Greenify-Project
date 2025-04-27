@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Agricultural.Repo.Migrations
 {
     [DbContext(typeof(PlanetContext))]
-    [Migration("20250426201418_Initialcreate")]
+    [Migration("20250427144527_Initialcreate")]
     partial class Initialcreate
     {
         /// <inheritdoc />
@@ -113,60 +113,43 @@ namespace Agricultural.Repo.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("CommonDiseases")
+                    b.Property<string>("About")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("FertilizerType")
+                    b.Property<string>("CareLevel")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
-                    b.Property<string>("GrowthTime")
+                    b.Property<string>("Edibility")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
-                    b.Property<double>("HumidityMax")
-                        .HasColumnType("decimal(5,2)");
+                    b.Property<bool>("Flowering")
+                        .HasColumnType("boolean");
 
-                    b.Property<double>("HumidityMin")
-                        .HasColumnType("decimal(5,2)");
+                    b.Property<bool>("IsAirPurifying")
+                        .HasColumnType("boolean");
 
-                    b.Property<string>("PestControl")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<bool>("Medicinal")
+                        .HasColumnType("boolean");
 
                     b.Property<string>("PlantName")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
 
-                    b.Property<string>("SeasonType")
+                    b.Property<string>("ScientificName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Size")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
-
-                    b.Property<string>("SoilType")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("character varying(50)");
-
-                    b.Property<string>("SunlightNeeds")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<double>("TemperatureMax")
-                        .HasColumnType("decimal(5,2)");
-
-                    b.Property<double>("TemperatureMin")
-                        .HasColumnType("decimal(5,2)");
-
-                    b.Property<string>("Uses")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("WaterNeeds")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
@@ -227,6 +210,49 @@ namespace Agricultural.Repo.Migrations
                         .IsRequired();
 
                     b.Navigation("PlantsInfo");
+                });
+
+            modelBuilder.Entity("Agricultural.Core.Models.PlantsInfo", b =>
+                {
+                    b.OwnsOne("Agricultural.Core.Models.PlantDetails", "Details", b1 =>
+                        {
+                            b1.Property<int>("PlantsInfoId")
+                                .HasColumnType("integer");
+
+                            b1.Property<string>("Fertilizing")
+                                .IsRequired()
+                                .HasColumnType("text");
+
+                            b1.Property<string>("Pests")
+                                .IsRequired()
+                                .HasColumnType("text");
+
+                            b1.Property<string>("Repotting")
+                                .IsRequired()
+                                .HasColumnType("text");
+
+                            b1.Property<string>("Sunlight")
+                                .IsRequired()
+                                .HasColumnType("text");
+
+                            b1.Property<string>("Temperature")
+                                .IsRequired()
+                                .HasColumnType("text");
+
+                            b1.Property<string>("Water")
+                                .IsRequired()
+                                .HasColumnType("text");
+
+                            b1.HasKey("PlantsInfoId");
+
+                            b1.ToTable("PlantInfos");
+
+                            b1.WithOwner()
+                                .HasForeignKey("PlantsInfoId");
+                        });
+
+                    b.Navigation("Details")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Agricultural.Core.Models.PlantsInfo", b =>

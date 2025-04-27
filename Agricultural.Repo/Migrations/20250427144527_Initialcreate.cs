@@ -31,19 +31,20 @@ namespace Agricultural.Repo.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     PlantName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    SeasonType = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
-                    SoilType = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
-                    TemperatureMin = table.Column<double>(type: "numeric(5,2)", nullable: false),
-                    TemperatureMax = table.Column<double>(type: "numeric(5,2)", nullable: false),
-                    HumidityMin = table.Column<double>(type: "numeric(5,2)", nullable: false),
-                    HumidityMax = table.Column<double>(type: "numeric(5,2)", nullable: false),
-                    WaterNeeds = table.Column<string>(type: "text", nullable: false),
-                    SunlightNeeds = table.Column<string>(type: "text", nullable: false),
-                    GrowthTime = table.Column<string>(type: "text", nullable: false),
-                    FertilizerType = table.Column<string>(type: "text", nullable: false),
-                    CommonDiseases = table.Column<string>(type: "text", nullable: false),
-                    PestControl = table.Column<string>(type: "text", nullable: false),
-                    Uses = table.Column<string>(type: "text", nullable: false)
+                    ScientificName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    CareLevel = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Size = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Edibility = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Flowering = table.Column<bool>(type: "boolean", nullable: false),
+                    Medicinal = table.Column<bool>(type: "boolean", nullable: false),
+                    IsAirPurifying = table.Column<bool>(type: "boolean", nullable: false),
+                    About = table.Column<string>(type: "text", nullable: false),
+                    Details_Temperature = table.Column<string>(type: "text", nullable: false),
+                    Details_Sunlight = table.Column<string>(type: "text", nullable: false),
+                    Details_Water = table.Column<string>(type: "text", nullable: false),
+                    Details_Repotting = table.Column<string>(type: "text", nullable: false),
+                    Details_Fertilizing = table.Column<string>(type: "text", nullable: false),
+                    Details_Pests = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {

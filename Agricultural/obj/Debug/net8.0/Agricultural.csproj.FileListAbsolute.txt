@@ -179,3 +179,4 @@ E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\refint\A
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\Agricultural.pdb
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\Agricultural.genruntimeconfig.cache
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\ref\Agricultural.dll
+E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

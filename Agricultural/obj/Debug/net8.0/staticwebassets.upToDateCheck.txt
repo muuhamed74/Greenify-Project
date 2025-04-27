@@ -1,0 +1,24 @@
+wwwroot\images\plants\Apple1.jpg
+wwwroot\images\plants\Apple2.jpg
+wwwroot\images\plants\Coffee plant1.jpg
+wwwroot\images\plants\Coffee plant2.jpg
+wwwroot\images\plants\Corn1.jpg
+wwwroot\images\plants\Corn2.jpg
+wwwroot\images\plants\Garlic1.jpg
+wwwroot\images\plants\Garlic2.jpg
+wwwroot\images\plants\Grape Fruit1.jpg
+wwwroot\images\plants\Grape Fruit2.jpg
+wwwroot\images\plants\Onions1.jpg
+wwwroot\images\plants\Onions2.jpg
+wwwroot\images\plants\Pepper1.jpg
+wwwroot\images\plants\Pepper2.jpg
+wwwroot\images\plants\Potato1.jpg
+wwwroot\images\plants\Potato2.jpg
+wwwroot\images\plants\Sugar cane1.jpg
+wwwroot\images\plants\Sugar cane2.jpg
+wwwroot\images\plants\Tomato1.jpeg
+wwwroot\images\plants\Tomato2.jpg
+wwwroot\images\plants\Wheat1.jpg
+wwwroot\images\plants\Wheat2.jpg
+wwwroot\images\plants\Zucchini1.jpg
+wwwroot\images\plants\Zucchini2.jpg
