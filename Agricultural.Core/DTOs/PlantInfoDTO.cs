@@ -25,7 +25,9 @@
 
         public PlantDetails Details { get; set; }
 
-     
+        public List<PlantImageDTO> Images { get; set; }
+
+
     }
 
     public class PlantDetails
