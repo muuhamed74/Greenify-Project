@@ -1,3 +1,5 @@
+E:\Graduation\Project coding\Agricultural\Agricultural.Serv\bin\Debug\net8.0\Data\DataSeeding\plants_images.json
+E:\Graduation\Project coding\Agricultural\Agricultural.Serv\bin\Debug\net8.0\Data\DataSeeding\plants_seeding_data .json
 E:\Graduation\Project coding\Agricultural\Agricultural.Serv\bin\Debug\net8.0\Agricultural.Serv.deps.json
 E:\Graduation\Project coding\Agricultural\Agricultural.Serv\bin\Debug\net8.0\Agricultural.Serv.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Serv\bin\Debug\net8.0\Agricultural.Serv.pdb
@@ -16,4 +18,3 @@ E:\Graduation\Project coding\Agricultural\Agricultural.Serv\obj\Debug\net8.0\Agr
 E:\Graduation\Project coding\Agricultural\Agricultural.Serv\obj\Debug\net8.0\refint\Agricultural.Serv.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Serv\obj\Debug\net8.0\Agricultural.Serv.pdb
 E:\Graduation\Project coding\Agricultural\Agricultural.Serv\obj\Debug\net8.0\ref\Agricultural.Serv.dll
-E:\Graduation\Project coding\Agricultural\Agricultural.Serv\bin\Debug\net8.0\Data\DataSeeding\plants_images.json

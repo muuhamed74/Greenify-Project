@@ -22,7 +22,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<None Update="Data\DataSeeding\plants_seeding_data.json">
+		<None Update="Data\DataSeeding\plants_seeding_data .json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="Data\DataSeeding\plants_images.json">

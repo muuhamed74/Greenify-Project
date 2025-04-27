@@ -25,6 +25,8 @@ E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\wwwroot\
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.staticwebassets.runtime.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.staticwebassets.endpoints.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.exe
+E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Data\DataSeeding\plants_images.json
+E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Data\DataSeeding\plants_seeding_data .json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\appsettings.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\appsettings.Development.json
 E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Agricultural.deps.json
@@ -177,5 +179,3 @@ E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\refint\A
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\Agricultural.pdb
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\Agricultural.genruntimeconfig.cache
 E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\ref\Agricultural.dll
-E:\Graduation\Project coding\Agricultural\Agricultural\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\Graduation\Project coding\Agricultural\Agricultural\bin\Debug\net8.0\Data\DataSeeding\plants_images.json
