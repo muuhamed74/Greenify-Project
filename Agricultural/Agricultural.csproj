@@ -48,13 +48,11 @@
  </ItemGroup>
 
 <ItemGroup>
-  <None Update="..\Data\DataSeeding\plants_seeding_data.json">
+  <None Update="Data\DataSeeding\plants_seeding_data.json">
     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    <TargetPath>Data\DataSeeding\plants_seeding_data.json</TargetPath>
   </None>
-  <None Update="..\Data\DataSeeding\plants_images.json">
+  <None Update="Data\DataSeeding\plants_images.json">
     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    <TargetPath>Data\DataSeeding\plants_images.json</TargetPath>
   </None>
 </ItemGroup>
 
