@@ -22,8 +22,13 @@ namespace Agricultural.Repo.Data.DataSeeding
                 Console.WriteLine("Cleared existing data from PlantInfos and PlantImages.");
 
                 #region PlantsInfo data seeding
-                string baseDir = AppContext.BaseDirectory;
+                // Get the parent directory of the app (Solution_Agricultural/)
+                string baseDir = Directory.GetParent(AppContext.BaseDirectory)?.FullName ?? AppContext.BaseDirectory;
+                Console.WriteLine($"Base directory: {baseDir}");
+
+                // Construct the path to the file in the parent directory
                 string plantsFilePath = Path.Combine(baseDir, "Data", "DataSeeding", "plants_seeding_data.json");
+                Console.WriteLine($"Looking for plants_seeding_data.json at: {plantsFilePath}");
 
                 if (!File.Exists(plantsFilePath))
                 {
@@ -44,12 +49,15 @@ namespace Agricultural.Repo.Data.DataSeeding
                     }
                     await DbContext.Set<PlantsInfo>().AddRangeAsync(plants);
                     await DbContext.SaveChangesAsync();
+                    var addedPlants = await DbContext.PlantsInfo.ToListAsync();
+                    Console.WriteLine($"Successfully added {addedPlants.Count} PlantsInfo records. IDs: [{string.Join(", ", addedPlants.Select(p => p.Id))}]");
                     Console.WriteLine("PlantsInfo data seeded successfully!");
                 }
                 #endregion
 
                 #region Plant_Images data seeding
                 string imagesFilePath = Path.Combine(baseDir, "Data", "DataSeeding", "plants_images.json");
+                Console.WriteLine($"Looking for plants_images.json at: {imagesFilePath}");
 
                 if (!File.Exists(imagesFilePath))
                 {
@@ -77,6 +85,10 @@ namespace Agricultural.Repo.Data.DataSeeding
                     if (validPlantImages.Count > 0)
                     {
                         Console.WriteLine($"Seeding {validPlantImages.Count} valid PlantImages records...");
+                        foreach (var image in validPlantImages)
+                        {
+                            Console.WriteLine($"Inserting PlantImage: Id={image.Id}, PlantsInfoId={image.PlantsInfoId}, ImageUrl={image.ImageUrl}");
+                        }
                         await DbContext.Set<PlantImages>().AddRangeAsync(validPlantImages);
                         await DbContext.SaveChangesAsync();
                         Console.WriteLine("Plant_Images data seeded successfully!");
