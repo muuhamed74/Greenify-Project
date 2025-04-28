@@ -1,21 +1,3 @@
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.deps.json
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.runtimeconfig.json
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.dll
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.pdb
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Core.dll
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Core.pdb
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.csproj.AssemblyReference.cache
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.GeneratedMSBuildEditorConfig.editorconfig
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.AssemblyInfoInputs.cache
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.AssemblyInfo.cs
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.csproj.CoreCompileInputs.cache
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.sourcelink.json
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricult.96A19927.Up2Date
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.dll
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\refint\Agricultural.Repo.dll
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.pdb
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.genruntimeconfig.cache
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\ref\Agricultural.Repo.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Apple1.jpg
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Apple2.jpg
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Coffee plant1.jpg
@@ -38,3 +20,15 @@ E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Dat
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Zucchini2.jpg
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\plants_images.json
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\plants_seeding_data.json
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Core.dll
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Core.pdb
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.csproj.AssemblyReference.cache
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.AssemblyInfoInputs.cache
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.AssemblyInfo.cs
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.csproj.CoreCompileInputs.cache
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.sourcelink.json
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricult.96A19927.Up2Date
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.dll
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\refint\Agricultural.Repo.dll
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.pdb
