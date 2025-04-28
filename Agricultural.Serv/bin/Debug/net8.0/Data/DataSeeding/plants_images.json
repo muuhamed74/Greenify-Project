@@ -1,10 +1,10 @@
 [
     {
-        "ImageUrl": "/images/plants/Grape Fruit1.jpeg",
+        "ImageUrl": "/images/plants/Grape Fruit1.jpg",
         "PlantsInfoId": 1
     },
     {
-        "ImageUrl": "/images/plants/Grape Fruit2.jpeg",
+        "ImageUrl": "/images/plants/Grape Fruit2.jpg",
         "PlantsInfoId": 1
     },
     {
@@ -44,7 +44,7 @@
         "PlantsInfoId": 6
     },
     {
-        "ImageUrl": "/images/plants/Wheat2jpg",
+        "ImageUrl": "/images/plants/Wheat2.jpg",
         "PlantsInfoId": 6
     },
     {
