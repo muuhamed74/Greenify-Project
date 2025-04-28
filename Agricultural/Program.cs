@@ -108,8 +108,7 @@ namespace Agricultural
             }
 
             // Configure port
-            var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
-            app.Urls.Add($"http://*:{port}");
+            //uses the default Kestrel configuration
 
             // Configure middleware
             app.UseCors("AllowAll");

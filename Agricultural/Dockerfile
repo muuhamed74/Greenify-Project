@@ -6,8 +6,7 @@
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
+
 
 
 # This stage is used to build the service project
@@ -33,4 +32,6 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 # نسخ الصور
 COPY Agricultural/wwwroot /app/wwwroot
+EXPOSE $PORT
+ENV ASPNETCORE_URLS=http://0.0.0.0:$PORT
 ENTRYPOINT ["dotnet", "Agricultural.dll"]
