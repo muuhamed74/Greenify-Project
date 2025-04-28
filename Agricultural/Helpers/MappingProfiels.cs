@@ -1,22 +1,19 @@
-﻿using System.Runtime;
+﻿using AutoMapper;
 using Agricultural.Core.Models;
-using AutoMapper;
 using Agricultural.DTOs;
+using Agricultural.Helpers;
 
-namespace Agricultural.Helpers
+public class MappingProfiles : Profile
 {
-    public class MappingProfiles : Profile
+    public MappingProfiles()
     {
-        public MappingProfiles()    
-        {
-            CreateMap<PlantsInfo, PlantInfoDTO>()
-                .ForMember(dest => dest.Images, opt => opt.MapFrom(src => src.PlantImages));
+        CreateMap<PlantsInfo, PlantInfoDTO>()
+            .ForMember(dest => dest.Images, opt => opt.MapFrom(src => src.PlantImages));
 
-            CreateMap<PlantImages, PlantImageDTO>()
-                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<ImageUrlResolver>());
+        CreateMap<PlantImages, PlantImageDTO>()
+            .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<ImageUrlResolver>());
 
-        }
+        // Add mapping for PlantDetails
+        CreateMap<Agricultural.Core.Models.PlantDetails, Agricultural.DTOs.PlantDetails>();
     }
-
 }
-
