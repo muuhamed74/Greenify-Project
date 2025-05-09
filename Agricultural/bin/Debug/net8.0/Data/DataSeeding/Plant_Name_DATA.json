@@ -1,0 +1,550 @@
+[
+  {
+    "name": "aloevera",
+    "scientific_name": "Aloe barbadensis miller",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Low",
+      "soil_type": "Sandy soil"
+    },
+    "flower": {
+      "color": "Yellow/orange",
+      "morphology": "Tubular clusters"
+    },
+    "vitamins": ["A", "C", "E", "B12"],
+    "health_benefits": [
+      "Soothes burns",
+      "Hydrates skin",
+      "Aids digestion"
+    ]
+  },
+  {
+    "name": "banana",
+    "scientific_name": "Musa spp.",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Frequent",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "Purple/white",
+      "morphology": "Large hanging bracts"
+    },
+    "vitamins": ["B6", "C", "Potassium"],
+    "health_benefits": [
+      "Boosts energy",
+      "Supports heart health",
+      "Regulates blood pressure"
+    ]
+  },
+  {
+    "name": "bilimbi",
+    "scientific_name": "Averrhoa bilimbi",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Moderate",
+      "soil_type": "Loamy soil"
+    },
+    "flower": {
+      "color": "Red-purple",
+      "morphology": "Small clusters"
+    },
+    "vitamins": ["C", "Antioxidants"],
+    "health_benefits": [
+      "Lowers cholesterol",
+      "Treats hypertension",
+      "Anti-inflammatory"
+    ]
+  },
+  {
+    "name": "cantaloupe",
+    "scientific_name": "Cucumis melo",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Fertile soil"
+    },
+    "flower": {
+      "color": "Yellow",
+      "morphology": "Small solitary"
+    },
+    "vitamins": ["A", "C", "Beta-carotene"],
+    "health_benefits": [
+      "Hydrates skin",
+      "Improves vision",
+      "Boosts immunity"
+    ]
+  },
+  {
+    "name": "cassava",
+    "scientific_name": "Manihot esculenta",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Drought-tolerant",
+      "soil_type": "Sandy soil"
+    },
+    "flower": {
+      "color": "White/yellow",
+      "morphology": "Small panicles"
+    },
+    "vitamins": ["C", "Folate"],
+    "health_benefits": [
+      "Energy-rich (carbs)",
+      "Gluten-free",
+      "Note: Must be cooked to remove cyanide"
+    ]
+  },
+  {
+    "name": "coconut",
+    "scientific_name": "Cocos nucifera",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Saline-tolerant",
+      "soil_type": "Sandy soil"
+    },
+    "flower": {
+      "color": "Yellow-white",
+      "morphology": "Branched spikes"
+    },
+    "vitamins": ["Iron", "Potassium", "Healthy fats"],
+    "health_benefits": [
+      "Supports metabolism",
+      "Hydrates",
+      "Antiviral properties"
+    ]
+  },
+  {
+    "name": "corn",
+    "scientific_name": "Zea mays",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Nitrogen-rich soil"
+    },
+    "flower": {
+      "color": "Tassels (male), silks (female)",
+      "morphology": "N/A"
+    },
+    "vitamins": ["B1", "B5", "Folate"],
+    "health_benefits": [
+      "High fiber",
+      "Supports digestion",
+      "Energy source"
+    ]
+  },
+  {
+    "name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Frequent",
+      "soil_type": "Loamy soil"
+    },
+    "flower": {
+      "color": "Yellow",
+      "morphology": "Solitary"
+    },
+    "vitamins": ["K", "Potassium"],
+    "health_benefits": [
+      "Hydrating",
+      "Aids weight loss",
+      "Reduces inflammation"
+    ]
+  },
+  {
+    "name": "curcuma",
+    "scientific_name": "Curcuma longa",
+    "growing_conditions": {
+      "sunlight": "Partial shade",
+      "water": "Moist",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White/pink",
+      "morphology": "Cone-shaped bracts"
+    },
+    "vitamins": ["Curcumin (anti-inflammatory)"],
+    "health_benefits": [
+      "Fights inflammation",
+      "Boosts brain function",
+      "Antioxidant"
+    ]
+  },
+  {
+    "name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "Purple/white",
+      "morphology": "Star-shaped"
+    },
+    "vitamins": ["Nasunin (antioxidant)", "Fiber"],
+    "health_benefits": [
+      "Supports heart health",
+      "May lower cholesterol"
+    ]
+  },
+  {
+    "name": "galangal",
+    "scientific_name": "Alpinia galanga",
+    "growing_conditions": {
+      "sunlight": "Partial shade",
+      "water": "Moist",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White/pink",
+      "morphology": "Orchid-like"
+    },
+    "vitamins": ["C", "Iron"],
+    "health_benefits": [
+      "Aids digestion",
+      "Anti-nausea",
+      "Antimicrobial"
+    ]
+  },
+  {
+    "name": "ginger",
+    "scientific_name": "Zingiber officinale",
+    "growing_conditions": {
+      "sunlight": "Partial shade",
+      "water": "Moist",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "Yellow-green",
+      "morphology": "Cone-shaped"
+    },
+    "vitamins": ["Gingerol (anti-inflammatory)"],
+    "health_benefits": [
+      "Relieves nausea",
+      "Reduces muscle pain",
+      "Anti-inflammatory"
+    ]
+  },
+  {
+    "name": "guava",
+    "scientific_name": "Psidium guajava",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White",
+      "morphology": "Fluffy stamens"
+    },
+    "vitamins": ["C (4× orange)", "Fiber"],
+    "health_benefits": [
+      "Boosts immunity",
+      "Regulates blood sugar",
+      "Improves digestion"
+    ]
+  },
+  {
+    "name": "kale",
+    "scientific_name": "Brassica oleracea",
+    "growing_conditions": {
+      "sunlight": "Full sun/partial shade",
+      "water": "Moist",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "Yellow",
+      "morphology": "Small cross-shaped"
+    },
+    "vitamins": ["K", "A", "C"],
+    "health_benefits": [
+      "Detoxifies",
+      "Supports bone health",
+      "High in antioxidants"
+    ]
+  },
+  {
+    "name": "longbeans",
+    "scientific_name": "Vigna unguiculata",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Loamy soil"
+    },
+    "flower": {
+      "color": "White/purple",
+      "morphology": "Pea-like"
+    },
+    "vitamins": ["B1", "Iron", "Folate"],
+    "health_benefits": [
+      "High protein",
+      "Supports blood health",
+      "Low-calorie"
+    ]
+  },
+  {
+    "name": "mango",
+    "scientific_name": "Mangifera indica",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Drought-tolerant",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "Pink/white",
+      "morphology": "Panicles"
+    },
+    "vitamins": ["A", "C", "E"],
+    "health_benefits": [
+      "Promotes eye health",
+      "Boosts immunity",
+      "Aids digestion"
+    ]
+  },
+  {
+    "name": "melon",
+    "scientific_name": "Cucumis melo",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Sandy soil"
+    },
+    "flower": {
+      "color": "Yellow",
+      "morphology": "Solitary"
+    },
+    "vitamins": ["C", "Potassium"],
+    "health_benefits": [
+      "Hydrating",
+      "Supports kidney health",
+      "Low-calorie"
+    ]
+  },
+  {
+    "name": "orange",
+    "scientific_name": "Citrus sinensis",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White",
+      "morphology": "Fragrant clusters"
+    },
+    "vitamins": ["C", "Folate"],
+    "health_benefits": [
+      "Immune support",
+      "Collagen production",
+      "Heart health"
+    ]
+  },
+  {
+    "name": "paddy",
+    "scientific_name": "Oryza sativa",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Flooded fields",
+      "soil_type": "Clay soil"
+    },
+    "flower": {
+      "color": "Green-white",
+      "morphology": "Panicles"
+    },
+    "vitamins": ["B vitamins", "Iron"],
+    "health_benefits": [
+      "Energy staple",
+      "Gluten-free",
+      "Supports muscle function"
+    ]
+  },
+  {
+    "name": "papaya",
+    "scientific_name": "Carica papaya",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White/yellow",
+      "morphology": "Trumpet-shaped"
+    },
+    "vitamins": ["C", "A", "Papain enzyme"],
+    "health_benefits": [
+      "Aids digestion",
+      "Skin health",
+      "Anti-inflammatory"
+    ]
+  },
+  {
+    "name": "peperchili",
+    "scientific_name": "Capsicum annuum",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White",
+      "morphology": "Small star-shaped"
+    },
+    "vitamins": ["C", "Capsaicin"],
+    "health_benefits": [
+      "Boosts metabolism",
+      "Pain relief",
+      "Antioxidant"
+    ]
+  },
+  {
+    "name": "pineapple",
+    "scientific_name": "Ananas comosus",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Acidic soil"
+    },
+    "flower": {
+      "color": "Purple/red",
+      "morphology": "Spiky bracts"
+    },
+    "vitamins": ["C", "Bromelain enzyme"],
+    "health_benefits": [
+      "Aids digestion",
+      "Reduces inflammation",
+      "Immune support"
+    ]
+  },
+  {
+    "name": "pomelo",
+    "scientific_name": "Citrus maxima",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White",
+      "morphology": "Fragrant"
+    },
+    "vitamins": ["C", "Potassium"],
+    "health_benefits": [
+      "Heart health",
+      "Hydration",
+      "Antioxidant"
+    ]
+  },
+  {
+    "name": "shallot",
+    "scientific_name": "Allium cepa (aggregatum)",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White/purple",
+      "morphology": "Globe-shaped"
+    },
+    "vitamins": ["B6", "Antioxidants"],
+    "health_benefits": [
+      "Anti-cancer properties",
+      "Supports blood health"
+    ]
+  },
+  {
+    "name": "soybeans",
+    "scientific_name": "Glycine max",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Loamy soil"
+    },
+    "flower": {
+      "color": "White/purple",
+      "morphology": "Pea-like"
+    },
+    "vitamins": ["Protein", "B vitamins", "Iron"],
+    "health_benefits": [
+      "Plant-based protein",
+      "Supports heart health",
+      "Hormone balance"
+    ]
+  },
+  {
+    "name": "spinach",
+    "scientific_name": "Spinacia oleracea",
+    "growing_conditions": {
+      "sunlight": "Partial shade",
+      "water": "Moist",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "Yellow-green",
+      "morphology": "Small clusters"
+    },
+    "vitamins": ["K", "A", "Iron"],
+    "health_benefits": [
+      "Bone health",
+      "Improves vision",
+      "High in antioxidants"
+    ]
+  },
+  {
+    "name": "sweetpotatoes",
+    "scientific_name": "Ipomoea batatas",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Sandy soil"
+    },
+    "flower": {
+      "color": "Purple/white",
+      "morphology": "Morning-glory-like"
+    },
+    "vitamins": ["A (beta-carotene)", "C"],
+    "health_benefits": [
+      "Supports vision",
+      "Immune booster",
+      "Regulates blood sugar"
+    ]
+  },
+  {
+    "name": "tobacco",
+    "scientific_name": "Nicotiana tabacum",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Regular",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "Pink/white",
+      "morphology": "Trumpet-shaped"
+    },
+    "vitamins": ["N/A (toxic if ingested)"],
+    "health_benefits": [
+      "Not edible - used industrially",
+      "Warning: Addictive and carcinogenic"
+    ]
+  },
+  {
+    "name": "waterapple",
+    "scientific_name": "Syzygium aqueum",
+    "growing_conditions": {
+      "sunlight": "Full sun",
+      "water": "Moist",
+      "soil_type": "Well-drained soil"
+    },
+    "flower": {
+      "color": "White/red",
+      "morphology": "Fluffy stamens"
+    },
+    "vitamins": ["C", "Fiber"],
+    "health_benefits": [
+      "Hydrating",
+      "Aids digestion",
+      "Low-calorie"
+    ]
+  }
+]

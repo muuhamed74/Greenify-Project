@@ -1,4 +1,6 @@
-﻿namespace Agricultural.DTOs
+﻿
+
+namespace Agricultural.Core.DTOs
 {
     public class PlantImageDTO
     {

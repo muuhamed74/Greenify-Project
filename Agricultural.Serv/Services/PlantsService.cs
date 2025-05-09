@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +7,7 @@ using Agricultural.Core.Models;
 using Agricultural.Repo.Data;
 using Agricultural.Repo.Repositories;
 using AutoMapper;
-using Agricultural.DTOs;
+using Agricultural.Core.DTOs;
 using Microsoft.EntityFrameworkCore;
 
 

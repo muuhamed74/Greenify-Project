@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Apple1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Apple2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Apple2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee-plant1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Coffee-plant1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Coffee-plant2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Coffee-plant2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Corn1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Corn2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Corn2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Garlic1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Garlic2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Garlic2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape-Fruit1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Grape-Fruit1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Grape-Fruit2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Grape-Fruit2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Onions1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Onions2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Onions2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Pepper1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Pepper2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Pepper2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Potato1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Potato2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Potato2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar-cane1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Sugar-cane1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Sugar-cane2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Sugar-cane2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Wheat1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Wheat2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Wheat2.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini1.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Zucchini1.jpg"
+    },
+    {
+      "Id": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\wwwroot\\images\\plants\\Zucchini2.jpg",
+      "PackagePath": "staticwebassets\\images\\plants\\Zucchini2.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Agricultural.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Agricultural.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Agricultural.props",
+      "PackagePath": "build\\Agricultural.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Agricultural.props",
+      "PackagePath": "buildMultiTargeting\\Agricultural.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Agricultural.props",
+      "PackagePath": "buildTransitive\\Agricultural.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

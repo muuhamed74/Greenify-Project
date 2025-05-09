@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System.IO;
+
+
 
 
 namespace Agricultural.Repo.Data
@@ -31,8 +28,8 @@ namespace Agricultural.Repo.Data
             {
                 throw new InvalidOperationException("❌ لم يتم العثور على `ConnectionString` في `appsettings.json`");
             }
-
             builder.UseNpgsql(connectionString);
+            //builder.UseSqlServer(connectionString);
 
             Console.WriteLine("✅ تم تحميل `PlanetContext` بنجاح!");
             return new PlanetContext(builder.Options);

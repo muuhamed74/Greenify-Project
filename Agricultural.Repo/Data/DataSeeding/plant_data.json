@@ -1,0 +1,374 @@
+[
+    {
+        "PlantName": "Apple",
+        "Status": "alternaria_leaf_spot",
+        "Description": "A fungal disease caused by Alternaria species, characterized by small, dark concentric spots on leaves. It thrives in warm, humid environments and can lead to early leaf drop and reduced photosynthesis.",
+        "Treatment": "Remove infected leaves and improve air circulation. Apply fungicides such as chlorothalonil or mancozeb at the first signs of infection."
+    },
+    {
+        "PlantName": "Apple",
+        "Status": "black_rot",
+        "Description": "A fungal infection caused by Botryosphaeria obtusa. It causes leaf spots, cankers on branches, and black sunken lesions on fruit. It spreads easily in warm, moist conditions.",
+        "Treatment": "Prune infected branches, remove mummified fruits, and apply copper-based or captan fungicides during early fruit development."
+    },
+    {
+        "PlantName": "Apple",
+        "Status": "brown_spot",
+        "Description": "Brown spots on apple leaves may result from fungal infections or nutrient deficiencies. Prolonged humidity or poor air circulation can exacerbate the problem.",
+        "Treatment": "Improve ventilation, avoid overhead watering, and use preventative fungicide sprays if the infection spreads."
+    },
+    {
+        "PlantName": "Apple",
+        "Status": "gray_spot",
+        "Description": "Gray spots on leaves indicate fungal activity, typically in humid environments. Infected leaves may curl, dry, and fall off prematurely.",
+        "Treatment": "Remove and destroy infected leaves. Apply sulfur or copper-based fungicides. Ensure good air circulation through proper pruning."
+    },
+    {
+        "PlantName": "Apple",
+        "Status": "healthy",
+        "Description": "The apple plant is healthy with vibrant green leaves, firm fruits, and no visible signs of pests or diseases.",
+        "AdditionalInformation": "Ensure full sunlight, deep watering once or twice a week, seasonal pruning, and application of balanced fertilizer in spring."
+    },
+    {
+        "PlantName": "Apple",
+        "Status": "rust",
+        "Description": "Apple rust is caused by Gymnosporangium fungi and results in orange spots on leaves. It requires both apple and juniper hosts to complete its lifecycle.",
+        "Treatment": "Remove nearby junipers if possible. Apply fungicides like myclobutanil in early spring. Prune infected areas to reduce spread."
+    },
+    {
+        "PlantName": "Apple",
+        "Status": "scab",
+        "Description": "Apple scab is caused by Venturia inaequalis fungus, leading to olive-brown lesions on leaves and fruits. Severe cases deform fruit and reduce yield.",
+        "Treatment": "Use fungicides such as captan or sulfur during early growth stages. Sanitize fallen leaves and consider resistant apple varieties."
+    },
+    {
+        "PlantName": "Bell_pepper",
+        "Status": "bacterial_spot",
+        "Description": "Caused by Xanthomonas bacteria, this disease leads to water-soaked lesions on leaves and fruits, turning brown and necrotic over time.",
+        "Treatment": "Use disease-free seeds, apply copper-based sprays, rotate crops, and avoid wetting foliage during irrigation."
+    },
+    {
+        "PlantName": "Bell_pepper",
+        "Status": "healthy",
+        "Description": "The bell pepper plant is healthy with glossy green leaves and firm fruits. No signs of bacterial or fungal issues are observed.",
+        "AdditionalInformation": "Provide full sun, consistent moisture without overwatering, and inspect regularly for early signs of pests or disease."
+    },
+    {
+        "PlantName": "Blueberry",
+        "Status": "healthy",
+        "Description": "The blueberry plant is vigorous and free of disease. Leaves are deep green and fruits are well-developed.",
+        "AdditionalInformation": "Maintain acidic soil (pH 4.5–5.5), water deeply and regularly, mulch around the base, and prune annually after harvest."
+    },
+    {
+        "PlantName": "Strawberry",
+        "Status": "healthy",
+        "Description": "The strawberry plant exhibits vibrant green leaves, firm fruits, and no signs of disease or pest infestation.",
+        "AdditionalInformation": "Ensure full sunlight, consistent watering without waterlogging, and regular removal of old leaves to promote healthy growth."
+    },
+    {
+        "PlantName": "Strawberry",
+        "Status": "leaf_scorch",
+        "Description": "Leaf scorch in strawberries is characterized by browning and drying of leaf margins, often due to environmental stress or fungal infection like Diplocarpon earlianum.",
+        "Treatment": "Remove infected foliage and crop residues after harvest, use drip irrigation, and apply fungicides like thiophanate-methyl during bloom or in late summer."
+    },
+    {
+        "PlantName": "Sugercane",
+        "Status": "healthy",
+        "Description": "The sugarcane plant is robust with tall, green stalks and no visible signs of disease or pest damage.",
+        "AdditionalInformation": "Maintain optimal soil fertility, ensure adequate water supply, and monitor for early signs of pests or diseases to sustain healthy growth."
+    },
+    {
+        "PlantName": "Sugercane",
+        "Status": "mosaic",
+        "Description": "Mosaic disease in sugarcane presents as mottled or streaked patterns on leaves, leading to reduced photosynthesis and yield.",
+        "Treatment": "Use virus-free planting material, control aphid populations that spread the virus, and remove infected plants to prevent spread."
+    },
+    {
+        "PlantName": "Sugercane",
+        "Status": "red_rot",
+        "Description": "Red rot is a fungal disease causing reddish discoloration in the stalk's internal tissues, leading to plant wilting and death.",
+        "Treatment": "Plant resistant varieties, ensureproper drainage, and remove and destroy infected stalks to control the disease."
+    },
+    {
+        "PlantName": "Sugercane",
+        "Status": "rust",
+        "Description": "Sugarcane rust manifests as reddish-brown pustules on leaves, reducing photosynthetic efficiency and crop yield.",
+        "Treatment": "Apply recommended fungicides, remove infected leaves, and cultivate resistant varieties to manage rust outbreaks."
+    },
+    {
+        "PlantName": "Sugercane",
+        "Status": "yellow_leaf",
+        "Description": "Yellow leaf disease causes yellowing of the midrib and leaf blade, leading to stunted growth and reduced sugar content.",
+        "Treatment": "Use virus-free planting material, control insect vectors, and remove infected plants to prevent disease spread."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "bacterial_spot",
+        "Description": "Bacterial spot causes small, water-soaked lesions on leaves and fruits, leading to defoliation and fruit blemishes.",
+        "Treatment": "Use certified disease-free seeds, apply copper-based bactericides, and practice crop rotation to manage the disease."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "early_blight",
+        "Description": "Early blight is a fungal disease presenting as concentric rings on lower leaves, causing yellowing and defoliation.",
+        "Treatment": "Remove infected foliage, apply fungicides like chlorothalonil, and ensure proper spacing for air circulation."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "healthy",
+        "Description": "The tomato plant is healthy, with lush green foliage and no signs of disease or pest infestation.",
+        "AdditionalInformation": "Provide full sunlight, consistent watering at the base, and regular pruning to maintain plant health."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "late_blight",
+        "Description": "Late blight causes dark, water-soaked lesions on leaves and fruits, leading to rapid plant decline.",
+        "Treatment": "Apply fungicides containing copper or chlorothalonil promptly and remove infected plants to prevent spread."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "leaf_curl",
+        "Description": "Leaf curl BROKEN results in upward curling of leaves, often due to viral infection or environmental stress.",
+        "Treatment": "Control insect vectors like whiteflies, remove infected plants, and avoid excessive nitrogen fertilization."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "leaf_mold",
+        "Description": "Leaf mold appears as yellow spots on upper leaf surfaces and grayish mold underneath, leading to leaf drop.",
+        "Treatment": "Improve air circulation, reduce humidity, and apply appropriate fungicides to control the disease."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "mosaic_virus",
+        "Description": "Mosaic virus causes mottled light and dark green patterns on leaves, stunting growth and reducing yield.",
+        "Treatment": "Remove and destroy infected plants, control aphid populations, and use resistant varieties."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "septoria_leaf_spot",
+        "Description": "Septoria leaf spot causes small, circular spots with dark borders on leaves, leading to premature defoliation.",
+        "Treatment": "Remove affected leaves, apply fungicides like chlorothalonil, and avoid overhead watering."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "spider_mites",
+        "Description": "Spider mites are tiny pests causing stippling and yellowing of leaves, often accompanied by fine webbing.",
+        "Treatment": "Increase humidity, wash leaves with water, and apply miticides or insecticidal soaps to control infestations."
+    },
+    {
+        "PlantName": "Tomato",
+        "Status": "target_spot",
+        "Description": "Target spot presents as circular lesions with concentric rings on leaves and fruits, leading to defoliation.",
+        "Treatment": "Apply appropriate fungicides, remove infected plant parts, and ensure proper spacing for air circulation."
+    },
+    {
+        "PlantName": "Watermelon",
+        "Status": "anthracnose",
+        "Description": "Anthracnose causes dark, sunken lesions on leaves, stems, and fruits, leading to fruit rot and plant decline.",
+        "Treatment": "Use resistant varieties, apply fungicides like chlorothalonil, and practice crop rotation."
+    },
+    {
+        "PlantName": "Watermelon",
+        "Status": "downy_mildew",
+        "Description": "Downy mildew appears as yellow spots on upper leaf surfaces and grayish mold underneath, causing leaf blight.",
+        "Treatment": "Apply fungicides promptly, ensure good air circulation, and avoid overhead irrigation."
+    },
+    {
+        "PlantName": "Watermelon",
+        "Status": "healthy",
+        "Description": "The watermelon plant is thriving, with healthy green foliage and no signs of disease or pests.",
+        "AdditionalInformation": "Provide full sunlight, consistent watering, and monitor for pests to maintain plant health."
+    },
+    {
+        "PlantName": "Watermelon",
+        "Status": "mosaic_virus",
+        "Description": "Mosaic virus causes mottled patterns on leaves and fruits, leading to distorted growth and reduced yield.",
+        "Treatment": "Remove infected plants, control aphid populations, and use virus-free seeds."
+    },
+    {
+        "PlantName": "Cassava",
+        "Status": "bacterial_blight",
+        "Description": "Cassava bacterial blight causes angular leaf spots, wilting, and dieback, leading to severe yield losses.",
+        "Treatment": "Use disease-free planting material, remove infected plants, and apply copper-based bactericides."
+    },
+    {
+        "PlantName": "Cassava",
+        "Status": "brown_streak_disease",
+        "Description": "Brown streak disease causes brown necrotic streaks in roots and yellowing of leaves, severely affecting starch production.",
+        "Treatment": "Plant resistant varieties, remove infected plants, and use certified virus-free planting materials."
+    },
+    {
+        "PlantName": "Cassava",
+        "Status": "green_mottle",
+        "Description": "Cassava green mottle disease causes mottling and distortion of leaves, leading to reduced photosynthetic activity.",
+        "Treatment": "Control insect vectors, remove infected plants, and use virus-free cuttings."
+    },
+    {
+        "PlantName": "Cassava",
+        "Status": "healthy",
+        "Description": "The cassava plant displays healthy green foliage with no signs of infection or physical damage.",
+        "AdditionalInformation": "Ensure well-drained soil, proper spacing, and regular monitoring for pest and disease symptoms."
+    },
+    {
+        "PlantName": "Cassava",
+        "Status": "mosaic_disease",
+        "Description": "Cassava mosaic disease causes leaf curling and yellow mosaic patterns, stunting plant growth.",
+        "Treatment": "Use resistant cultivars, control whiteflies, and eliminate infected cuttings."
+    },
+    {
+        "PlantName": "Cherry",
+        "Status": "healthy",
+        "Description": "The cherry tree is healthy with firm, dark green leaves and no visible signs of stress or disease.",
+        "AdditionalInformation": "Maintain good air circulation, balanced fertilization, and pruning to support healthy fruiting."
+    },
+    {
+        "PlantName": "Cherry",
+        "Status": "powdery_mildew",
+        "Description": "Powdery mildew in cherry trees appears as a white powder on leaves and shoots, hindering growth.",
+        "Treatment": "Prune infected areas, increase air circulation, and apply sulfur-based fungicides."
+    },
+    {
+        "PlantName": "Coffee",
+        "Status": "healthy",
+        "Description": "The coffee plant is healthy, with broad, shiny green leaves and no indications of disease or pest damage.",
+        "AdditionalInformation": "Ensure shade, optimal soil pH, and routine pest scouting for best growth conditions."
+    },
+    {
+        "PlantName": "Coffee",
+        "Status": "red_spider_mite",
+        "Description": "Red spider mites cause leaf bronzing and defoliation, weakening the coffee plant and reducing yield.",
+        "Treatment": "Use miticides, encourage natural predators, and increase humidity around plants."
+    },
+    {
+        "PlantName": "Coffee",
+        "Status": "rust",
+        "Description": "Coffee rust presents as yellow-orange powdery lesions on the underside of leaves, causing defoliation.",
+        "Treatment": "Plant resistant varieties, apply fungicides like copper oxychloride, and improve air circulation through pruning."
+    },
+    {
+        "PlantName": "Potato",
+        "Status": "phytophthora",
+        "Description": "Phytophthora infestans causes late blight in potatoes, leading to dark lesions on leaves and tuber rot.",
+        "Treatment": "Apply fungicides containing mancozeb or chlorothalonil, remove infected debris, and practice crop rotation."
+    },
+    {
+        "PlantName": "Raspberry",
+        "Status": "healthy",
+        "Description": "The raspberry plant is thriving with healthy green leaves and bright berries free of pests or disease.",
+        "AdditionalInformation": "Provide support structures, prune old canes, and maintain consistent watering for best fruit production."
+    },
+    {
+        "PlantName": "Rice",
+        "Status": "bacterial_blight",
+        "Description": "Rice bacterial blight causes water-soaked lesions that become yellow and dry, often starting at leaf tips.",
+        "Treatment": "Use resistant varieties, apply balanced fertilization, and avoid high nitrogen application."
+    },
+    {
+        "PlantName": "Rice",
+        "Status": "blast",
+        "Description": "Rice blast disease forms diamond-shaped lesions on leaves and can lead to neck rot in panicles.",
+        "Treatment": "Apply tricyclazole-based fungicides and use resistant varieties with proper field sanitation."
+    },
+    {
+        "PlantName": "Rice",
+        "Status": "brown_spot",
+        "Description": "Brown spot in rice appears as brown lesions on leaves and grains, reducing photosynthetic activity and quality.",
+        "Treatment": "Improve soil fertility, especially with potassium and zinc, and use fungicides if needed."
+    },
+    {
+        "PlantName": "Rice",
+        "Status": "tungro",
+        "Description": "Tungro virus causes stunted growth, yellowing, and reduced tillering in rice plants.",
+        "Treatment": "Control green leafhoppers, remove infected plants, and grow resistant rice varieties."
+    },
+    {
+        "PlantName": "Rose",
+        "Status": "healthy",
+        "Description": "The rose plant is healthy, showing lush foliage and vibrant blooms with no pest or disease symptoms.",
+        "AdditionalInformation": "Ensure good air circulation, regular pruning, and balanced watering to maintain bloom health."
+    },
+    {
+        "PlantName": "Rose",
+        "Status": "rust",
+        "Description": "Rose rust appears as orange pustules on the underside of leaves, causing premature leaf drop.",
+        "Treatment": "Remove infected leaves, avoid overhead watering, and apply sulfur or copper-based fungicides."
+    },
+    {
+        "PlantName": "Rose",
+        "Status": "slug_sawfly",
+        "Description": "Slug sawfly larvae skeletonize rose leaves, leaving them with a lace-like appearance.",
+        "Treatment": "Handpick larvae, use insecticidal soap, or apply neem oil to affected plants."
+    },
+    {
+        "PlantName": "Soybean",
+        "Status": "healthy",
+        "Description": "The soybean plant exhibits robust green foliage, uniform growth, and no visible signs of disease.",
+        "AdditionalInformation": "Maintain soil fertility, monitor for pests regularly, and ensure proper spacing for air flow."
+    },
+    {
+        "PlantName": "Squash",
+        "Status": "powdery_mildew",
+        "Description": "Powdery mildew on squash forms white powdery spots on leaves, which may lead to yellowing and defoliation.",
+        "Treatment": "Use sulfur-based fungicides, plant resistant varieties, and ensure good air flow between plants."
+    },
+    {
+        "PlantName": "Corn",
+        "Status": "common_rust",
+        "Description": "Common rust on corn causes reddish-brown pustules on leaves, which can reduce photosynthesis and yield.",
+        "Treatment": "Plant resistant hybrids, rotate crops, and use fungicides like azoxystrobin if severe."
+    },
+    {
+        "PlantName": "Corn",
+        "Status": "gray_leaf_spot",
+        "Description": "Gray leaf spot presents as rectangular gray lesions on corn leaves, leading to reduced grain fill.",
+        "Treatment": "Use resistant varieties, maintain crop residue management, and apply foliar fungicides when needed."
+    },
+    {
+        "PlantName": "Corn",
+        "Status": "healthy",
+        "Description": "The corn plant displays upright green leaves, strong stalks, and no visible signs of fungal or pest damage.",
+        "AdditionalInformation": "Ensure optimal fertilization, pest monitoring, and proper irrigation practices."
+    },
+    {
+        "PlantName": "Corn",
+        "Status": "northern_leaf_blight",
+        "Description": "Northern leaf blight causes long, elliptical gray-green lesions, reducing photosynthesis and yield.",
+        "Treatment": "Use resistant hybrids, till crop residues, and apply fungicides during early tassel if disease pressure is high."
+    },
+    {
+        "PlantName": "Grape",
+        "Status": "Leaf_blight",
+        "Description": "Leaf blight in grapes leads to browning and death of leaf tissue, affecting plant vigor and fruit quality.",
+        "Treatment": "Prune infected leaves, apply copper-based fungicides, and improve canopy ventilation."
+    },
+    {
+        "PlantName": "Grape",
+        "Status": "black_measles",
+        "Description": "Black measles causes dark streaks on trunks, necrotic leaf margins, and berry spotting in grapes.",
+        "Treatment": "Use proper pruning, avoid wounding vines, and apply fungicides during the growing season."
+    },
+    {
+        "PlantName": "Grape",
+        "Status": "black_rot",
+        "Description": "Grape black rot causes small brown leaf lesions and shriveled, black fruit mummies.",
+        "Treatment": "Remove mummified berries, apply myclobutanil or mancozeb fungicides, and ensure good airflow."
+    },
+    {
+        "PlantName": "Grape",
+        "Status": "healthy",
+        "Description": "The grapevine appears vigorouspren with broad, dark green leaves and no signs of disease or nutrient deficiency.",
+        "AdditionalInformation": "Regularly train and prune vines, ensure sunlight exposure, and apply balanced fertilization."
+    },
+    {
+        "PlantName": "Orange",
+        "Status": "citrus_greening",
+        "Description": "Citrus greening causes yellow shoots, lopsided fruit, and leaf mottling due to bacterial infection spread by psyllids.",
+        "Treatment": "Control psyllids using insecticides, remove infected trees, and plant disease-free saplings."
+    },
+    {
+        "PlantName": "Peach",
+        "Status": "bacterial_spot",
+        "Description": "Bacterial spot on peach causes small dark lesions on leaves and fruit, leading to fruit drop and defoliation.",
+        "Treatment": "Apply copper-based sprays, prune infected areas, and avoid overhead irrigation."
+    }
+]

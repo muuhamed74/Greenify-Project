@@ -1,4 +1,6 @@
-﻿namespace Agricultural.DTOs
+﻿using Agricultural.Core.DTOs;
+
+namespace Agricultural.DTOs
 {
     public class PlantInfoDTO
     {

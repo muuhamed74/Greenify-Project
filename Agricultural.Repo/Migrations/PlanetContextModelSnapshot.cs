@@ -16,10 +16,35 @@ namespace Agricultural.Repo.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.1")
+                .HasAnnotation("ProductVersion", "9.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("Agricultural.Core.Models.Plant", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("HealthBenefitsJson")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<string>("ScientificName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("VitaminsJson")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Plant");
+                });
 
             modelBuilder.Entity("Agricultural.Core.Models.PlantAdditionalData", b =>
                 {
@@ -29,8 +54,22 @@ namespace Agricultural.Repo.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("SessionToken")
+                    b.Property<string>("AdditionalInformation")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Description")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PlantName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Treatment")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -59,47 +98,6 @@ namespace Agricultural.Repo.Migrations
                     b.HasIndex("PlantsInfoId");
 
                     b.ToTable("PlantImages", (string)null);
-                });
-
-            modelBuilder.Entity("Agricultural.Core.Models.PlantPrediction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Analysis_Type")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("PlantPrediction");
-                });
-
-            modelBuilder.Entity("Agricultural.Core.Models.PlantResponse", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("BotResponse")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("PlantResponse");
                 });
 
             modelBuilder.Entity("Agricultural.Core.Models.PlantsInfo", b =>
@@ -153,49 +151,52 @@ namespace Agricultural.Repo.Migrations
                     b.ToTable("PlantInfos", (string)null);
                 });
 
-            modelBuilder.Entity("Agricultural.Core.Models.Uploaded_Images", b =>
+            modelBuilder.Entity("Agricultural.Core.Models.Plant", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                    b.OwnsOne("Agricultural.Core.Models.Flower", "Flower", b1 =>
+                        {
+                            b1.Property<int>("PlantId")
+                                .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                            b1.Property<string>("Color")
+                                .HasColumnType("text");
 
-                    b.Property<string>("ImagePath")
-                        .IsRequired()
-                        .HasColumnType("text");
+                            b1.Property<string>("Morphology")
+                                .HasColumnType("text");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
+                            b1.HasKey("PlantId");
 
-                    b.HasKey("Id");
+                            b1.ToTable("Plant");
 
-                    b.ToTable("UploadedImages");
-                });
+                            b1.WithOwner()
+                                .HasForeignKey("PlantId");
+                        });
 
-            modelBuilder.Entity("Agricultural.Core.Models.Users", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                    b.OwnsOne("Agricultural.Core.Models.GrowingConditions", "GrowingConditions", b1 =>
+                        {
+                            b1.Property<int>("PlantId")
+                                .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                            b1.Property<string>("SoilType")
+                                .HasColumnType("text");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("text");
+                            b1.Property<string>("Sunlight")
+                                .HasColumnType("text");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("text");
+                            b1.Property<string>("Water")
+                                .HasColumnType("text");
 
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("text");
+                            b1.HasKey("PlantId");
 
-                    b.HasKey("Id");
+                            b1.ToTable("Plant");
 
-                    b.ToTable("Users");
+                            b1.WithOwner()
+                                .HasForeignKey("PlantId");
+                        });
+
+                    b.Navigation("Flower");
+
+                    b.Navigation("GrowingConditions");
                 });
 
             modelBuilder.Entity("Agricultural.Core.Models.PlantImages", b =>

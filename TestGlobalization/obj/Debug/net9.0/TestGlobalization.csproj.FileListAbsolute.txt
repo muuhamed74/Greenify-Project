@@ -1,0 +1,15 @@
+E:\Graduation\Project coding\Agricultural\TestGlobalization\bin\Debug\net9.0\TestGlobalization.exe
+E:\Graduation\Project coding\Agricultural\TestGlobalization\bin\Debug\net9.0\TestGlobalization.deps.json
+E:\Graduation\Project coding\Agricultural\TestGlobalization\bin\Debug\net9.0\TestGlobalization.runtimeconfig.json
+E:\Graduation\Project coding\Agricultural\TestGlobalization\bin\Debug\net9.0\TestGlobalization.dll
+E:\Graduation\Project coding\Agricultural\TestGlobalization\bin\Debug\net9.0\TestGlobalization.pdb
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.GeneratedMSBuildEditorConfig.editorconfig
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.AssemblyInfoInputs.cache
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.AssemblyInfo.cs
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.csproj.CoreCompileInputs.cache
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.sourcelink.json
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.dll
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\refint\TestGlobalization.dll
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.pdb
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\TestGlobalization.genruntimeconfig.cache
+E:\Graduation\Project coding\Agricultural\TestGlobalization\obj\Debug\net9.0\ref\TestGlobalization.dll

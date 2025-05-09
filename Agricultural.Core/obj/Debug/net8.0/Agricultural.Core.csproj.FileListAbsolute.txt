@@ -1,4 +1,5 @@
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\bin\Debug\net8.0\Agricultural.Core.deps.json
+E:\Graduation\Project coding\Agricultural\Agricultural.Core\bin\Debug\net8.0\Agricultural.Core.runtimeconfig.json
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\bin\Debug\net8.0\Agricultural.Core.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\bin\Debug\net8.0\Agricultural.Core.pdb
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\obj\Debug\net8.0\Agricultural.Core.csproj.AssemblyReference.cache
@@ -10,4 +11,5 @@ E:\Graduation\Project coding\Agricultural\Agricultural.Core\obj\Debug\net8.0\Agr
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\obj\Debug\net8.0\Agricultural.Core.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\obj\Debug\net8.0\refint\Agricultural.Core.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\obj\Debug\net8.0\Agricultural.Core.pdb
+E:\Graduation\Project coding\Agricultural\Agricultural.Core\obj\Debug\net8.0\Agricultural.Core.genruntimeconfig.cache
 E:\Graduation\Project coding\Agricultural\Agricultural.Core\obj\Debug\net8.0\ref\Agricultural.Core.dll

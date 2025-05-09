@@ -1,25 +1,7 @@
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Apple1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Apple2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Coffee plant1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Coffee plant2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Corn1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Corn2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Garlic1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Garlic2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Grape Fruit1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Grape Fruit2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Onions1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Onions2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Pepper1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Pepper2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Potato1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Potato2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Wheat1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Wheat2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Zucchini1.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\images\Zucchini2.jpg
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\plants_images.json
-E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Data\DataSeeding\plants_seeding_data.json
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.deps.json
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.runtimeconfig.json
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.dll
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Repo.pdb
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Core.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\bin\Debug\net8.0\Agricultural.Core.pdb
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.csproj.AssemblyReference.cache
@@ -32,3 +14,5 @@ E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agr
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\refint\Agricultural.Repo.dll
 E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.pdb
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\Agricultural.Repo.genruntimeconfig.cache
+E:\Graduation\Project coding\Agricultural\Agricultural.Repo\obj\Debug\net8.0\ref\Agricultural.Repo.dll

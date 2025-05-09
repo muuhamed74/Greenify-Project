@@ -1,12 +1,11 @@
-﻿using Agricultural.Helpers;
 using Agricultural.Repo.Data;
 using Agricultural.Repo.Data.DataSeeding;
 using Agricultural.Repo.Repositories;
 using Agricultural.Serv.Services;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
-using System.Web;
+using Microsoft.EntityFrameworkCore;
+//using Microsoft.Extensions.Options;
+
 
 namespace Agricultural
 {
@@ -20,23 +19,23 @@ namespace Agricultural
             builder.Services.AddControllers();
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddHttpClient();
             // Get connection string using the helper method from DatabaseHelper
             var connectionString = DatabaseHelper.GetConnectionString(builder.Configuration, builder.Environment);
             Console.WriteLine($"Using connection string: {connectionString}");
 
             // Add database context
+            //options.UseNpgsql(connectionString, npgsqlOptions =>
             builder.Services.AddDbContext<PlanetContext>(options =>
-                options.UseNpgsql(connectionString, npgsqlOptions =>
-                {
-                    npgsqlOptions.EnableRetryOnFailure(
-                        maxRetryCount: 3,
-                        maxRetryDelay: TimeSpan.FromSeconds(30),
-                        errorCodesToAdd: null);
-                }));
+            options.UseNpgsql(connectionString));
 
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddScoped<PlantsService>();
+            builder.Services.AddScoped<IPlantAdditionalDataService, PlantAdditionalDataService>();
+            builder.Services.AddScoped<IPlantResponseService, PlantResponseService>();
+            builder.Services.AddScoped<IPlantNameService, PlantNameService>();
+            builder.Services.AddScoped<IPlantSearchService, PlantSearchService>();
+
             builder.Services.AddAutoMapper(typeof(Program));
 
             builder.Services.AddSwaggerGen(c =>
@@ -110,7 +109,7 @@ namespace Agricultural
             // Configure port
             //uses the default Kestrel configuration
 
-            // Configure middleware
+            // Configure middleware for Cors
             app.UseCors("AllowAll");
 
             // Configure static files

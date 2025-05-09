@@ -2,6 +2,7 @@
 using Agricultural.Core.Models;
 using Agricultural.DTOs;
 using Agricultural.Helpers;
+using Agricultural.Core.DTOs;
 
 public class MappingProfiles : Profile
 {
@@ -15,5 +16,10 @@ public class MappingProfiles : Profile
 
         // Add mapping for PlantDetails
         CreateMap<Agricultural.Core.Models.PlantDetails, Agricultural.DTOs.PlantDetails>();
+
+        CreateMap<PlantAdditionalData, HealthyPlantResponseDto>();
+
+        CreateMap<PlantAdditionalData, PlantResponseDto>();
+
     }
 }
