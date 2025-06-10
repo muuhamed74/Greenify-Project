@@ -36,7 +36,7 @@ namespace Agricultural.Serv.Services
                 using var stream = imageFile.OpenReadStream();
                 content.Add(new StreamContent(stream), "imagefile", imageFile.FileName);
 
-                var response = await _httpClient.PostAsync("https://greenify-production-706f.up.railway.app/", content);
+                var response = await _httpClient.PostAsync("https://greenify-production-b44f.up.railway.app/", content);
                 response.EnsureSuccessStatusCode();
                 var responseString = await response.Content.ReadAsStringAsync();
                 var prediction = JsonConvert.DeserializeObject<PlantPrediction>(responseString);

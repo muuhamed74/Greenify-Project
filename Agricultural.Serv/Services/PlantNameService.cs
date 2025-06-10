@@ -10,7 +10,7 @@ namespace Agricultural.Serv.Services
     public class PlantNameService : IPlantNameService
     {
         private readonly HttpClient _httpClient;
-        private readonly string _apiUrl = "https://plant-classification-api-production.up.railway.app/";
+        private readonly string _apiUrl = "https://plant-classification-api-production-a03e.up.railway.app/";
 
         public PlantNameService(HttpClient httpClient)
         {

@@ -14,12 +14,10 @@ COPY . .
 WORKDIR /src/Agricultural
 RUN dotnet build "Agricultural.csproj" -c Release -o /app/build
 
-# runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/build .
 
-# مهم: Data يتم نسخه مباشرة من السياق
 COPY Agricultural.Repo/Data /app/Data
 
 EXPOSE 8080
