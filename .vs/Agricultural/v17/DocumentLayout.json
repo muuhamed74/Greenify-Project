@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\Graduation\\Project coding\\Agricultural\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.serv\\services\\plantnameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|solutionrelative:agricultural.serv\\services\\plantnameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.serv\\services\\plantadditionaldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|solutionrelative:agricultural.serv\\services\\plantadditionaldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.serv\\services\\plantresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|solutionrelative:agricultural.serv\\services\\plantresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.serv\\services\\plantnameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|solutionrelative:agricultural.serv\\services\\plantnameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|e:\\graduation\\project coding\\agricultural\\agricultural\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|solutionrelative:agricultural\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|e:\\graduation\\project coding\\agricultural\\agricultural\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515199F3-DA8F-439C-99B5-2FB4A650BA81}|Agricultural\\Agricultural.csproj|solutionrelative:agricultural\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEC0E79C-8890-4BD4-BFB2-4D56EAF69085}|Agricultural.Core\\Agricultural.Core.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.core\\dtos\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEC0E79C-8890-4BD4-BFB2-4D56EAF69085}|Agricultural.Core\\Agricultural.Core.csproj|solutionrelative:agricultural.core\\dtos\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|e:\\graduation\\project coding\\agricultural\\agricultural.serv\\services\\plantsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BC42E2-73F3-4F3A-A686-0BEFF0F14859}|Agricultural.Serv\\Agricultural.Serv.csproj|solutionrelative:agricultural.serv\\services\\plantsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,64 +34,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Program.cs",
               "RelativeDocumentMoniker": "Agricultural\\Program.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Program.cs",
               "RelativeToolTip": "Agricultural\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T03:48:30.067Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlantAdditionalDataService.cs",
-              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantAdditionalDataService.cs",
-              "RelativeDocumentMoniker": "Agricultural.Serv\\Services\\PlantAdditionalDataService.cs",
-              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantAdditionalDataService.cs",
-              "RelativeToolTip": "Agricultural.Serv\\Services\\PlantAdditionalDataService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PlantSearchService.cs",
+              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantSearchService.cs",
+              "RelativeDocumentMoniker": "Agricultural.Serv\\Services\\PlantSearchService.cs",
+              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantSearchService.cs",
+              "RelativeToolTip": "Agricultural.Serv\\Services\\PlantSearchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T22:39:23.75Z",
+              "WhenOpened": "2025-06-11T00:15:21.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "ImageUploadDto.cs",
+              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Core\\DTOs\\ImageUploadDto.cs",
+              "RelativeDocumentMoniker": "Agricultural.Core\\DTOs\\ImageUploadDto.cs",
+              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Core\\DTOs\\ImageUploadDto.cs",
+              "RelativeToolTip": "Agricultural.Core\\DTOs\\ImageUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:44:39.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlantsController.cs",
+              "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Controllers\\PlantsController.cs",
+              "RelativeDocumentMoniker": "Agricultural\\Controllers\\PlantsController.cs",
+              "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural\\Controllers\\PlantsController.cs",
+              "RelativeToolTip": "Agricultural\\Controllers\\PlantsController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:11:18.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlantNameService.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantNameService.cs",
               "RelativeDocumentMoniker": "Agricultural.Serv\\Services\\PlantNameService.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantNameService.cs",
               "RelativeToolTip": "Agricultural.Serv\\Services\\PlantNameService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T22:38:03.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlantResponseService.cs",
               "DocumentMoniker": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantResponseService.cs",
               "RelativeDocumentMoniker": "Agricultural.Serv\\Services\\PlantResponseService.cs",
               "ToolTip": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Services\\PlantResponseService.cs",
               "RelativeToolTip": "Agricultural.Serv\\Services\\PlantResponseService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowC0AAABdAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T22:38:09.552Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

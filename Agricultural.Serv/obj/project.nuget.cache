@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bPALRTV0wMo=",
+  "dgSpecHash": "ZkktSUloFD8=",
   "success": true,
   "projectFilePath": "E:\\Graduation\\Project coding\\Agricultural\\Agricultural.Serv\\Agricultural.Serv.csproj",
   "expectedPackageFiles": [
@@ -118,9 +118,8 @@
     "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.203\\microsoft.net.sdk.compilers.toolset.9.0.203.nupkg.sha512",
-    "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
     "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
     "C:\\Users\\MohamedHeshamElHanfy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
   ],
   "logs": []
