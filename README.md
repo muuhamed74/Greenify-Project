@@ -8,7 +8,7 @@ It integrates external APIs for image recognition and disease detection, and ret
 
 ---
 
-##  Features
+## Features
 
 1. **Plant Search by Name**  
    Users can search for plants by entering a name. The system will return:
