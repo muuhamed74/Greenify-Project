@@ -38,4 +38,4 @@ It integrates external APIs for image recognition and disease detection, and ret
 - **C#**
 - **External APIs for image recognition & disease detection**
 - **RESTful API design**
-- **Entity Framework / SQL **
+- **Entity Framework / SQL**
